@@ -1,0 +1,17 @@
+# WordPress sensible - ignorados del repositorio
+wp-config.php
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error_log
+
+# Uploads (opcional, pueden ser pesados)
+# wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/upgrade/

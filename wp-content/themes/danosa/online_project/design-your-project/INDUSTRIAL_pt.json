@@ -1,0 +1,268 @@
+{
+    "cubierta": {
+        "text": "COBERTURA",
+        "soluciones": {
+            "reflectante": {
+                "text": "REFLECTANTE",
+                "opciones": [
+                    {
+                        "selector": {
+                            "hormigon_ntv10": {
+                                "text": "BET\u00c3O - Cobertura plana  com membrana de PVC aderida e isolamento t\u00e9rmico XPS - NTV10"
+                            },
+                            "deck_ref1": {
+                                "text": "DECK - Cobertura plana refletante com membrana de PVC fixa mecanicamente e isolamento t\u00e9rmico PIR - REF1"
+                            },
+                            "deck_ref2": {
+                                "text": "DECK - Cobertura plana refletante com membrana de PVC fixa mecanicamente e isolamento t\u00e9rmico l\u00e3 de rocha - REF2"
+                            },
+                            "deck_ref3": {
+                                "text": "DECK - Cobertura plana refletante com membrana de PVC fixa mecanicamente e isolamento t\u00e9rmico l\u00e3 de rocha e XPS - REF3"
+                            },
+                            "deck_ref4": {
+                                "text": "DECK - Cobertura plana refletante com membrana de PVC fixa mecanicamente e isolamento t\u00e9rmico XPS - REF4"
+                            },
+                            "deck_acu2": {
+                                "text": "DECK - Cobertura deck ac\u00fastica n\u00e3o transit\u00e1vel com isolamento XPS e membrana PVC - ACU2"
+                            },
+                            "deck_nox2": {
+                                "text": "DECK - Cobertura deck descontaminante com membrana betuminosa (SBS) bicamada autoprotegida fixada mec\u00e2nicamente - NOX2"
+                            }
+                        }
+                    }
+                ]
+            },
+            "autoprotegida": {
+                "text": "AUTOPROTEGIDA",
+                "opciones": [
+                    {
+                        "selector": {
+                            "deck_ntv6": {
+                                "text": "DECK - Cobertura deck com membrana betuminosa bicamada autoprotegidas fixa mecanicamente e isolamento t\u00e9rmico l\u00e3 de rocha - NTV6"
+                            },
+                            "deck_ntv12": {
+                                "text": "DECK - Cobertura deck  com membranas betuminosas fixas mecanicamente (SBS+) e acabamento autoprotegido - NTV12"
+                            }
+                        }
+                    }
+                ]
+            },
+            "acustica": {
+                "text": "AC\u00daSTICA",
+                "opciones": [
+                    {
+                        "selector": {
+                            "deck_acu1": {
+                                "text": "DECK - Cobertura deck ac\u00fastica n\u00e3o transit\u00e1vel com isolamento mineral e membranas betuminosas (SBS) - ACU1"
+                            }
+                        }
+                    }
+                ]
+            },
+            "grava": {
+                "text": "Cascalho",
+                "opciones": [
+                    {
+                        "selector": {
+                            "hormigon_ntg1": {
+                                "text": "BET\u00c3O - Cobertura plana invertida n\u00e3o transit\u00e1vel com membranas betuminosas (SBS) e acabamento com godo - NTG1"
+                            }
+                        }
+                    }
+                ]
+            },
+            "pavimento_plots": {
+                "text": "PAVIMENTO\/PLOTS",
+                "opciones": [
+                    {
+                        "selector": {
+                            "hormigon_tpp1": {
+                                "text": "BET\u00c3O - Cobertura plana transit\u00e1vel de uso privado com membranas betuminosas (SBS), isolamento t\u00e9rmico XPS e acabamento cer\u00e2mico - TPP1"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ajardinada": {
+                "text": "AJARDINADA",
+                "opciones": [
+                    {
+                        "selector": {
+                            "hormigon_ext1": {
+                                "text": "BET\u00c3O - Cobertura plana invertida ajardinada extensiva com membranas betuminosas (SBS) - EXT1"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "divisorias_interiores": {
+        "text": "DIVIS\u00d3RIAS INTERIORES",
+        "soluciones": {
+            "sala_de_maquinas": {
+                "text": "SALA DE M\u00c1QUINAS",
+                "opciones": [
+                    {
+                        "selector": {
+                            "suelos_suf5": {
+                                "text": "PISO - Pavimento flutuante para zonas de cargas elevadas - Pavimento flutuante para zonas de cargas elevadas - SUF5"
+                            },
+                            "techo_tef3": {
+                                "text": "TETO - Teto flutuante para locais com emiss\u00e3o >90 dBA com m\u00fasica - TEF3"
+                            },
+                            "trasdosados_tra3": {
+                                "text": "TRASDOSADOS - Trasdosado para locais de emiss\u00e3o >90 dB com m\u00fasica - TRA3"
+                            }
+                        }
+                    }
+                ]
+            },
+            "salon_de_actos": {
+                "text": "AUDIT\u00d3RIO",
+                "opciones": [
+                    {
+                        "selector": {
+                            "suelos_suf3": {
+                                "text": "PISO - Pavimento flutuante b\u00e1sico termoac\u00fastico - SUF3"
+                            },
+                            "tabique_div2": {
+                                "text": "DIVIS\u00d3RIA - Divis\u00f3ria dupla em gesso cartonado - DIV2"
+                            },
+                            "techo_tef2": {
+                                "text": "TETO - Teto flutuante para locais com emiss\u00e3o entre 80-90 dBA e hor\u00e1rio noturno - TEF2"
+                            },
+                            "trasdosados_tra1": {
+                                "text": "TRASDOSADOS - Trasdosado para locais de emiss\u00e3o 85-90 dB - TRA1"
+                            }
+                        }
+                    }
+                ]
+            },
+            "oficinas": {
+                "text": "ESCRIT\u00d3RIOS",
+                "opciones": [
+                    {
+                        "selector": {
+                            "suelos_suf1": {
+                                "text": "PISO - Pavimento flutuante b\u00e1sico (acabamento laminado de madeira) - SUF1"
+                            },
+                            "tabique_div2": {
+                                "text": "DIVIS\u00d3RIA - Divis\u00f3ria dupla em gesso cartonado - DIV2"
+                            },
+                            "techo_tef1": {
+                                "text": "TETO - Teto flutuante para locais com emiss\u00e3o entre 80-90 dBA - TEF1"
+                            },
+                            "trasdosados_fch3": {
+                                "text": "TRASDOSADOS - Isolamento t\u00e9rmico-ac\u00fastico pelo interior - FCH3"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parking": {
+        "text": "PARKING",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "rodadura_hormigon_tvh1": {
+                                "text": "Estradas  de concreto - Cobertura plana para ve\u00edculos de uso p\u00fablico com membranas betuminosas (SBS) para verter bet\u00e3o - TVH1"
+                            },
+                            "rodadura_hormigon_tvh3": {
+                                "text": "Estradas  de concreto - Cobertura plana para ve\u00edculos de uso p\u00fablico com membrana cont\u00ednua de poliureia sobre bet\u00e3o n\u00e3o resistente aos UV's - TVH3"
+                            },
+                            "aglomerado_asfaltico_tva1": {
+                                "text": "Aglomerado asf\u00e1ltico - Cobertura plana para ve\u00edculos com membranas betuminosas (SBS) para verter aglomerado asf\u00e1ltico - TVA1"
+                            },
+                            "aglomerado_asfaltico_tva3": {
+                                "text": "Aglomerado asf\u00e1ltico - Cobertura plana para ve\u00edculos de uso p\u00fablico com membrana cont\u00ednua de poliureia para verter aglomerado asf\u00e1ltico - TVA3"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "pavimentos": {
+        "text": "PAVIMENTOS",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "pav1": {
+                                "text": "PAV1"
+                            },
+                            "pav2": {
+                                "text": "PAV2"
+                            },
+                            "pav3": {
+                                "text": "PAV3"
+                            },
+                            "pav4": {
+                                "text": "PAV4"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "estructuras_enterradas": {
+        "text": "ESTRUTURAS ENTERRADAS",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "losa_los1": {
+                                "text": "Laje - Laje de Pavimento t\u00e9rreo com membrana betuminosa (SBS) - LOS1"
+                            },
+                            "solera_sol1": {
+                                "text": "Soleira - Laje sobre terreno compactado para tr\u00e1fego autom\u00f3vel com membrana betuminosa (SBS) - SOL1"
+                            },
+                            "muro_flexorresistente_por_extrasdos_mur1": {
+                                "text": "Muro Flexorresistente - Por extrasdos - Muros de suporte ou panos enterrados com membrana betuminosa (SBS) - MUR1"
+                            },
+                            "muro_flexorresistente_por_intrados_argotec_300_impermeable": {
+                                "text": "Muro Flexorresistente - Por intrados - Argotec 300 Impermeable"
+                            },
+                            "muro_flexorresistente_por_intrados_danocret_protect_flex": {
+                                "text": "Muro Flexorresistente - Por intrados - Danocret Protect Flex"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "instalaciones": {
+        "text": "INSTALA\u00c7\u00d5ES",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "bajantes_baj1": {
+                                "text": "Tubagem - Tubagem de descarga em edi\u00edcios resid\u00eanciais - BAJ1"
+                            },
+                            "cuartos_humedos_hum2": {
+                                "text": "Salas \u00famidas - \u00c1reas h\u00famidas interiores com membrana l\u00edquida - HUM2"
+                            },
+                            "pci_dep1": {
+                                "text": "PCI - Dep\u00f3sitos de \u00e1gua pot\u00e1vel com PVC - DEP1"
+                            },
+                            "foso_ascensor_fos1": {
+                                "text": "Fosso Elevador - Fosso de elevador - FOS1"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

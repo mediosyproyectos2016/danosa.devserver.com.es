@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns:serif="http://www.serif.com/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 152 152"
+	 style="enable-background:new 0 0 152 152;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#721C3C;stroke:#000000;stroke-width:0.25;}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-width:0.25;}
+	.st3{fill:none;stroke:#515151;stroke-width:2;stroke-linecap:square;stroke-miterlimit:1.5;}
+</style>
+<g>
+	<g>
+		<g>
+			<defs>
+				<circle id="SVGID_1_" cx="76" cy="76" r="75"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st0">
+				<rect x="-63.5" y="0.4" class="st1" width="382.9" height="150.4"/>
+				<polygon class="st2" points="44.7,0.4 70.3,8.8 44.7,17.1 70.3,25.5 44.7,33.9 70.3,42.2 44.7,50.6 70.3,58.9 44.7,67.3 
+					70.3,75.6 44.7,84 70.3,92.3 44.7,100.7 70.3,109.1 44.7,117.4 70.3,125.8 44.7,134.1 70.3,142.5 44.7,150.9 -63.5,150.9 
+					-63.5,0.4 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<circle class="st3" cx="76" cy="76" r="75"/>
+</svg>

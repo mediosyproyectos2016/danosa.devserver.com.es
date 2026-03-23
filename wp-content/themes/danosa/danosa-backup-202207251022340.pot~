@@ -1,0 +1,726 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Danosa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-07 09:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: danosa"
+
+#: system/system-header.php:28
+msgid "Acoustic Insulation"
+msgstr ""
+
+#: system/system-downloads.php:184
+msgid "Activity"
+msgstr ""
+
+#: single-product-pdf.php:184 product/product-datasheet.php:64
+msgid "Addtitional Technical Data"
+msgstr ""
+
+#: single-system.php:65
+msgid "Advantages"
+msgstr ""
+
+#: functions.php:470 product/product-description-pdf.php:8
+#: product/product-description.php:36
+msgid "Advantages & Benefits"
+msgstr ""
+
+#: single-system.php:66
+msgid "Application"
+msgstr ""
+
+#: single-product-pdf.php:193 product/product-datasheet.php:73
+msgid "Application Data"
+msgstr ""
+
+#: system/system-downloads.php:168
+msgid "Architect"
+msgstr ""
+
+#: functions.php:2026
+msgid "Area of operation"
+msgstr ""
+
+#: functions.php:2034
+msgid "Armor type"
+msgstr ""
+
+#: system/system-downloads.php:189
+msgid "Arquitectura / Ingeniería"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Astra is the fastest, fully customizable &amp; beautiful theme suitable for "
+"blogs, personal portfolios and business websites. It is very lightweight "
+"(less than 50KB on frontend) and offers unparalleled speed. Built with SEO "
+"in mind, Astra comes with schema.org code integrated so search engines will "
+"love your site. Astra offers plenty of sidebar options and widget areas "
+"giving you a full control for customizations. Furthermore, we have included "
+"special features and templates so feel free to choose any of your favorite "
+"page builder plugin to create pages flexibly. Some of the other features: # "
+"WooCommerce Ready # Responsive # Compatible with major plugins # Translation "
+"Ready # Extendible with premium addons # Regularly updated # Designed, "
+"Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a "
+"perfect base theme? Look no further. Astra is fast, fully customizable and "
+"beautiful theme!"
+msgstr ""
+
+#: system/system-bar.php:45
+msgid "Añadir A Proyecto"
+msgstr ""
+
+#: system/system-bar.php:20
+msgid "BIM"
+msgstr ""
+
+#: functions.php:1971
+msgid "Book an appointment"
+msgstr ""
+
+#: taxonomy-cad_cat.php:30
+msgid "CAD"
+msgstr ""
+
+#: system/system-bar.php:34
+msgid "Certificate"
+msgstr ""
+
+#: system/system-downloads.php:205
+msgid "City"
+msgstr ""
+
+#: system/system-downloads.php:170
+msgid "Civil Engineer"
+msgstr ""
+
+#: product/product-description-pdf.php:16 product/product-description.php:44
+msgid "Cleaning of Work Tools"
+msgstr ""
+
+#: tp-systems.php:74 taxonomy-product_merchant.php:143 taxonomy-family.php:141
+msgid "CLOSE"
+msgstr ""
+
+#: product/product-top.php:118 product/product-top-pdf.php:82
+msgid "Colors"
+msgstr ""
+
+#: single-product.php:94
+msgid "Commercial Sheet"
+msgstr ""
+
+#: system/system-downloads.php:177
+msgid "Company"
+msgstr ""
+
+#: single-construction.php:150
+msgid "Construction company"
+msgstr ""
+
+#: system/system-downloads.php:187
+msgid "Constructora"
+msgstr ""
+
+#: single-job.php:43 single-faq.php:43
+msgid "Contact us"
+msgstr ""
+
+#. Name of the template
+msgid "Country Selector"
+msgstr ""
+
+#: system/system-downloads.php:198
+msgid "Cpos"
+msgstr ""
+
+#. Name of the theme
+msgid "Danosa"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - CAD"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Calculator"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - FAQs"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Form Views"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Merchants"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Online projects"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Products"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Systems"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Systems Acoustic"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Tools"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - With Header"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Works"
+msgstr ""
+
+#: single-product.php:92 system/system-bar.php:17
+msgid "Datasheet"
+msgstr ""
+
+#: single-product.php:97
+msgid "Declaration of Performance"
+msgstr ""
+
+#: system/system-downloads.php:76
+msgid "Decomposed prices"
+msgstr ""
+
+#: system/system-downloads.php:165 system/system-downloads.php:166
+msgid "Degree"
+msgstr ""
+
+#: single-product.php:109 single-system.php:55
+msgid "Description"
+msgstr ""
+
+#: product/product-description-pdf.php:6 product/product-description.php:34
+msgid "Descriptive Memory"
+msgstr ""
+
+#: system/system-downloads.php:191
+msgid "Distribuidor"
+msgstr ""
+
+#: taxonomy-documentation_cat.php:30 shortcodes/search-button.php:76
+msgid "Documentation"
+msgstr ""
+
+#: single-product-pdf.php:166 product/product-datasheet.php:46
+msgid "Dome"
+msgstr ""
+
+#: loop-cad.php:21 functions.php:1788 loop-documentation.php:8
+msgid "Download"
+msgstr ""
+
+#: system/system-downloads.php:283
+msgid "Download selected"
+msgstr ""
+
+#: product/product-downloads.php:1 system/system-bar.php:4
+msgid "Downloads"
+msgstr ""
+
+#: system/system-downloads.php:154
+msgid "E-mail"
+msgstr ""
+
+#: single-construction.php:107
+msgid "Environmental description"
+msgstr ""
+
+#: single-product-pdf.php:202 product/product-datasheet.php:82
+msgid "Environmental Information"
+msgstr ""
+
+#: system/system-downloads.php:193
+msgid "Estudiante"
+msgstr ""
+
+#: tp-systems.php:50 taxonomy-product_merchant.php:117 taxonomy-family.php:116
+msgid "Filters"
+msgstr ""
+
+#: functions.php:2035
+msgid "Finish"
+msgstr ""
+
+#: system/system-header.php:34
+msgid "Finishing"
+msgstr ""
+
+#: single-system.php:67
+msgid "Graph"
+msgstr ""
+
+#: functions.php:478 product/product-description-pdf.php:15
+#: product/product-description.php:43
+msgid "Handling, storage and preservation"
+msgstr ""
+
+#: functions.php:1969
+msgid "Hello! Do you need any help?"
+msgstr ""
+
+#: functions.php:1971
+msgid "https://www.danosa.com/en-gb/contact/technical-support/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.mediosyproyectos.com;"
+msgstr ""
+
+#: online_project/_registro.php:68 system/system-downloads.php:270
+msgid "I have read and agree to the"
+msgstr ""
+
+#: functions.php:464 product/product-description-pdf.php:20
+#: product/product-description.php:48
+msgid "Icon"
+msgstr ""
+
+#: functions.php:476 product/product-description-pdf.php:12
+#: product/product-description.php:40
+msgid "Indications and Important Recommendations"
+msgstr ""
+
+#: system/system-downloads.php:190
+msgid "Instalador"
+msgstr ""
+
+#: single-system.php:110 product/product-description.php:16
+msgid "Installation video"
+msgstr ""
+
+#: single-construction.php:152
+msgid "Installer"
+msgstr ""
+
+#: product/product-description-pdf.php:11 product/product-description.php:39
+msgid "Instruction for Use"
+msgstr ""
+
+#: system/system-bar.php:60
+msgid "Ir al proyecto"
+msgstr ""
+
+#: shortcodes/country-selector.php:12
+msgid "Language"
+msgstr ""
+
+#: functions.php:1970
+msgid "Let's meet up and discuss together"
+msgstr ""
+
+#: blocks/delegations.php:55
+msgid "Locate on the map"
+msgstr ""
+
+#: single-construction.php:74
+msgid "Location"
+msgstr ""
+
+#: product/product-description-pdf.php:13 product/product-description.php:41
+msgid "Maintenance Recommendations"
+msgstr ""
+
+#: single-construction.php:303 loop-construction.php:16
+msgid "Materials used"
+msgstr ""
+
+#: single-construction.php:121
+msgid "Measurements"
+msgstr ""
+
+#. Author of the theme
+msgid "Medios y Proyectos"
+msgstr ""
+
+#: single-construction.php:134
+msgid "More info"
+msgstr ""
+
+#: taxonomy-faq_cat.php:64
+msgid "More information"
+msgstr ""
+
+#: system/system-header.php:37
+msgid "Mortar"
+msgstr ""
+
+#: shortcodes/search-button.php:55
+msgid "Most searched"
+msgstr ""
+
+#: system/system-downloads.php:141
+msgid "Name"
+msgstr ""
+
+#: shortcodes/search-button.php:77
+msgid "News"
+msgstr ""
+
+#: functions.php:462 product/product-description-pdf.php:18
+#: product/product-description.php:46
+msgid "Notice"
+msgstr ""
+
+#: system/system-downloads.php:173
+msgid "Other"
+msgstr ""
+
+#: system/system-downloads.php:172
+msgid "Other engineering"
+msgstr ""
+
+#: system/system-downloads.php:194
+msgid "Otros"
+msgstr ""
+
+#: system/system-downloads.php:192
+msgid "Particular"
+msgstr ""
+
+#: system/system-downloads.php:137
+msgid "Personal data"
+msgstr ""
+
+#: system/system-downloads.php:158
+msgid "Phone"
+msgstr ""
+
+#: single-product-pdf.php:175 product/product-datasheet.php:55
+msgid "Plinth"
+msgstr ""
+
+#: single-product-pdf.php:140 product/product-datasheet.php:18
+msgid "Presentation"
+msgstr ""
+
+#: online_project/_registro.php:71 system/system-downloads.php:273
+msgid "Privacy Policy"
+msgstr ""
+
+#: system/system-downloads.php:85
+msgid "Product datasheets"
+msgstr ""
+
+#: system/system-downloads.php:93
+msgid "Product Safety datasheets"
+msgstr ""
+
+#: product/product-top.php:75
+msgid "Product variations"
+msgstr ""
+
+#: product/product-related-systems.php:8
+msgid "Product-related solutions"
+msgstr ""
+
+#: shortcodes/search-button.php:74
+msgid "Products"
+msgstr ""
+
+#: system/system-downloads.php:213
+msgid "Project data"
+msgstr ""
+
+#: system/system-downloads.php:242
+msgid "Project location"
+msgstr ""
+
+#: single-construction.php:146
+msgid "Project management"
+msgstr ""
+
+#: system/system-downloads.php:218 system/system-downloads.php:219
+msgid "Project title"
+msgstr ""
+
+#: single-construction.php:148
+msgid "Promoter"
+msgstr ""
+
+#: system/system-downloads.php:188
+msgid "Promotora"
+msgstr ""
+
+#: single-construction.php:144
+msgid "Property"
+msgstr ""
+
+#: system/system-downloads.php:171
+msgid "Public Works Engineer"
+msgstr ""
+
+#: loop-news.php:16 functions.php:212 functions.php:235
+msgid "Read more"
+msgstr ""
+
+#: single-system.php:80
+msgid "Recommendations"
+msgstr ""
+
+#: shortcodes/country-selector.php:12
+msgid "Region"
+msgstr ""
+
+#: single-product.php:112
+msgid "Related documentation"
+msgstr ""
+
+#: system/system-related-products.php:7
+msgid "Related products"
+msgstr ""
+
+#: single-construction.php:245
+msgid "Related solutions"
+msgstr ""
+
+#: functions.php:482 product/product-description-pdf.php:17
+#: product/product-description.php:45
+msgid "Safety and hygiene"
+msgstr ""
+
+#: product/product-downloads.php:8
+msgid "Safety Datasheet"
+msgstr ""
+
+#: functions.php:466 product/product-description-pdf.php:7
+#: product/product-description.php:35
+msgid "Scope"
+msgstr ""
+
+#: system/system-bar.php:61
+msgid "Seguir navegando"
+msgstr ""
+
+#: system/system-downloads.php:186
+msgid "Seleccione una actividad ..."
+msgstr ""
+
+#: product/product-top.php:78
+msgid "Select"
+msgstr ""
+
+#: system/system-downloads.php:167
+msgid "Select an option"
+msgstr ""
+
+#: system/system-downloads.php:243 system/system-downloads.php:244
+msgid "Select your region"
+msgstr ""
+
+#: functions.php:601
+msgid "Share"
+msgstr ""
+
+#: functions.php:2033
+msgid "Sheet type"
+msgstr ""
+
+#: single-construction.php:288 product/product-related-systems.php:51
+msgid "Show more"
+msgstr ""
+
+#: functions.php:2165
+msgid "SI"
+msgstr ""
+
+#: system/system-header.php:43
+msgid "Solar Structure"
+msgstr ""
+
+#: shortcodes/home-systems.php:12 shortcodes/home-systems.php:39
+#: shortcodes/system-cat.php:54
+msgid "Solutions"
+msgstr ""
+
+#: functions.php:2027
+msgid "Solutions for"
+msgstr ""
+
+#: functions.php:2036
+msgid "Special uses"
+msgstr ""
+
+#: single-product-pdf.php:209 functions.php:468
+#: product/product-datasheet.php:91
+msgid "Standards and Certification"
+msgstr ""
+
+#: functions.php:474 product/product-description-pdf.php:10
+#: product/product-description.php:38
+msgid "Substrate preparation"
+msgstr ""
+
+#: functions.php:472 product/product-description-pdf.php:9
+#: product/product-description.php:37 system/system-header.php:40
+msgid "Support"
+msgstr ""
+
+#: system/system-downloads.php:145
+msgid "Surname"
+msgstr ""
+
+#: system/system-downloads.php:45
+msgid "System BIM"
+msgstr ""
+
+#: system/system-downloads.php:56
+msgid "System Certifications"
+msgstr ""
+
+#: system/system-downloads.php:35
+msgid "System Datasheet"
+msgstr ""
+
+#: system/system-downloads.php:24
+msgid "System documentation download"
+msgstr ""
+
+#: system/system-downloads.php:66
+msgid "System DWG"
+msgstr ""
+
+#: functions.php:2028
+msgid "System products"
+msgstr ""
+
+#: shortcodes/search-button.php:75
+msgid "Systems"
+msgstr ""
+
+#: system/system-downloads.php:169
+msgid "Technical Architect"
+msgstr ""
+
+#: single-product-pdf.php:157 single-product-pdf.php:166
+#: single-product-pdf.php:175 product/product-datasheet.php:37
+#: product/product-datasheet.php:46 product/product-datasheet.php:55
+msgid "Technical Data"
+msgstr ""
+
+#: single-product.php:110 single-system.php:56
+msgid "Technical features and measures"
+msgstr ""
+
+#: single-system.php:79
+msgid "Technical Requirements"
+msgstr ""
+
+#: ajax/system-filter.php:143 ajax/product-filter.php:160
+msgid ""
+"There are no products available with these filters, please try other "
+"combinations."
+msgstr ""
+
+#: system/system-header.php:25
+msgid "Thermal Insulation"
+msgstr ""
+
+#: system/system-header.php:31
+msgid "Thermo-acoustic Insulation"
+msgstr ""
+
+#: single-system.php:57
+msgid "Tools, guides and downloads"
+msgstr ""
+
+#: single-construction.php:142
+msgid "Type of construction"
+msgstr ""
+
+#: functions.php:2025
+msgid "Type of constructions"
+msgstr ""
+
+#: functions.php:2024
+msgid "Type of works"
+msgstr ""
+
+#: single-system.php:81
+msgid "Unit of Work"
+msgstr ""
+
+#: system/system-bar.php:42
+msgid "Ver Proyecto"
+msgstr ""
+
+#: loop-documentation_cat.php:26
+msgid "View"
+msgstr ""
+
+#: functions.php:290
+msgid "View job"
+msgstr ""
+
+#: shortcodes/home-systems.php:46
+msgid "View more"
+msgstr ""
+
+#: loop-system.php:112 loop-products.php:23
+msgid "View product"
+msgstr ""
+
+#: loop-family.php:27
+msgid "View products"
+msgstr ""
+
+#: shortcodes/system-cat.php:82
+msgid "View solutions"
+msgstr ""
+
+#: loop-documentation.php:11
+msgid "View video"
+msgstr ""
+
+#: functions.php:480 product/product-description-pdf.php:14
+#: product/product-description.php:42
+msgid "Warning"
+msgstr ""
+
+#: system/system-header.php:22
+msgid "Waterproofing"
+msgstr ""
+
+#: shortcodes/search-button.php:45
+msgid "What are you looking for?"
+msgstr ""
+
+#: single-construction.php:139
+msgid "Year of construction"
+msgstr ""
+
+#: system/system-downloads.php:135
+msgid "You must enter your details to download"
+msgstr ""
+
+#: system/system-downloads.php:155
+msgid "your@mail.com"
+msgstr ""

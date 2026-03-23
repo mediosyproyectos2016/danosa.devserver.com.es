@@ -1,0 +1,315 @@
+{
+  "cubierta": {
+    "text": "CUBIERTA",
+    "soluciones": {
+      "transitable": {
+        "text": "TRANSITABLE",
+        "opciones": {
+          "cubierta_tecnica": {
+            "text": "Cubierta t\u00e9cnica",
+            "selector": {
+              "hormigon_lbm_tpd1": {
+                "text": "HORMIG\u00d3N - LBM - TPD1"
+              },
+              "hormigon_pvc_tpd3": {
+                "text": "HORMIG\u00d3N - PVC - TPD3"
+              },
+              "deck_lbm_tpd1": {
+                "text": "DECK - LBM - TPD1"
+              },
+              "deck_pvc_tpd3": {
+                "text": "DECK - PVC - TPD3"
+              },
+              "rehabilitacion_ntv9": {
+                "text": "REHABILITACI\u00d3N - NTV9"
+              }
+            }
+          },
+          "pavimento_plots": {
+            "text": "Pavimentos\/Plots",
+            "selector": {
+              "hormigon_lbm_tpp1": {
+                "text": "HORMIG\u00d3N - LBM - TPP1"
+              },
+              "hormigon_pvc_tpp3": {
+                "text": "HORMIG\u00d3N - PVC - TPP3"
+              },
+              "deck_lbm_tpp1": {
+                "text": "DECK - LBM - TPP1"
+              },
+              "deck_pvc_tpp3": {
+                "text": "DECK - PVC - TPP3"
+              }
+            }
+          },
+          "zonas_comunes_s_aisl": {
+            "text": "Zonas comunes (s\/aisl)",
+            "selector": {
+              "hormigon_lbm_tpc1": {
+                "text": "HORMIG\u00d3N - LBM - TPC1"
+              },
+              "rehabilitacion_tpc3": {
+                "text": "REHABILITACI\u00d3N - TPC3"
+              }
+            }
+          }
+        }
+      },
+      "no_transitable": {
+        "text": "NO TRANSITABLE",
+        "opciones": {
+          "grava": {
+            "text": "Grava",
+            "selector": {
+              "hormigon_lbm_ntg1": {
+                "text": "HORMIG\u00d3N - LBM - NTG1"
+              },
+              "hormigon_pvc_ntg3": {
+                "text": "HORMIG\u00d3N - PVC - NTG3"
+              },
+              "deck_lbm_ntg1": {
+                "text": "DECK - LBM - NTG1"
+              },
+              "deck_pvc_ntg3": {
+                "text": "DECK - PVC - NTG3"
+              },
+              "rehabilitacion_danocoat_danoprimer_danocoat_danoflet_py_200": {
+                "text": "REHABILITACI\u00d3N - DANOCOAT@: danoprimer + danocoat+danoflet py 200"
+              }
+            }
+          },
+          "acabado_impermeabilizacion": {
+            "text": "Acabado impermeabilizaci\u00f3n",
+            "selector": {
+              "rehabilitacion_ntv8": {
+                "text": "REHABILITACI\u00d3N - NTV8"
+              }
+            }
+          }
+        }
+      },
+      "acustica": {
+        "text": "AC\u00daSTICA",
+        "opciones": [
+          {
+            "selector": {
+              "hormigon_lbm_acu3": {
+                "text": "HORMIG\u00d3N - LBM - ACU3"
+              },
+              "deck_lbm_acu1": {
+                "text": "DECK - LBM - ACU1"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "zonas_comunes": {
+    "text": "ZONAS COMUNES",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "piscina_vaso_de_piscina_ext_pfe1": {
+                "text": "Piscina - Vaso de piscina - Ext - PFE1"
+              },
+              "piscina_vaso_de_piscina_ext_pis1": {
+                "text": "Piscina - Vaso de piscina - Ext - PIS"
+              },
+              "piscina_vaso_de_piscina_ext_danocret_protect_flex": {
+                "text": "Piscina - Vaso de piscina - Ext - Danocret Protect Flex"
+              },
+              "piscina_vaso_de_piscina_int_pis1": {
+                "text": "Piscina - Vaso de piscina - Int - PIS1"
+              },
+              "piscina_vaso_de_piscina_int_danocret_protect_flex": {
+                "text": "Piscina - Vaso de piscina - Int - Danocret Protect Flex"
+              },
+              "fuentes_pfe1": {
+                "text": "Fuentes - PFE1"
+              },
+              "zonas_pavimentadas_publicas_tpc1": {
+                "text": "Zonas  pavimentadas - P\u00fablicas - TPC1"
+              },
+              "zonas_pavimentadas_publicas_tpc3": {
+                "text": "Zonas  pavimentadas - P\u00fablicas - TPC3"
+              },
+              "zonas_pavimentadas_privadas_tpc2": {
+                "text": "Zonas  pavimentadas - Privadas - TPC2"
+              },
+              "zonas_ajardinadas_extensivas_ext1": {
+                "text": "Zonas ajardinadas - Extensivas - EXT1"
+              },
+              "zonas_ajardinadas_intensivas_int1": {
+                "text": "Zonas ajardinadas - Intensivas -INT1"
+              },
+              "zonas_cesped_artificial_tpp1": {
+                "text": "Zonas c\u00e9sped artificial - TPP1"
+              },
+              "vestuarios_y_aseos_hum2": {
+                "text": "Vestuarios y aseos - HUM2"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "parking": {
+    "text": "PARKING",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "rodadura_hormigon_tvh1": {
+                "text": "Rodadura de hormig\u00f3n - TVH1"
+              },
+              "rodadura_hormigon_tvh3": {
+                "text": "Rodadura de hormig\u00f3n - TVH3"
+              },
+              "aglomerado_asfaltico_tva1": {
+                "text": "Aglomerado asf\u00e1ltico - TVA1"
+              },
+              "aglomerado_asfaltico_tva3": {
+                "text": "Aglomerado asf\u00e1ltico - TVA3"
+              },
+              "pavimento_parking_interior_pav2": {
+                "text": "Pavimento (Parking Interior) - PAV2"
+              },
+              "pavimento_parking_interior_pav3": {
+                "text": "Pavimento (Parking Interior) - PAV3"
+              },
+              "pavimento_parking_interior_pav4": {
+                "text": "Pavimento (Parking Interior) - PAV4"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "estructuras_enterradas": {
+    "text": "ESTRUCTURAS ENTERRADAS",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "losa_los1": {
+                "text": "Losa - LOS1"
+              },
+              "solera_sol1": {
+                "text": "Solera - SOL1"
+              },
+              "muro_flexoresistente_por_trasdos_mur1": {
+                "text": "Muro Flexoresistente - Por trasd\u00f3s - MUR1"
+              },
+              "muro_flexoresistente_por_intrados_danocret_protect_flex": {
+                "text": "Muro Flexoresistente - Por intrad\u00f3s - Danocret Protect Flex"
+              },
+              "muro_flexoresistente_por_intrados_imp_300": {
+                "text": "Muro Flexoresistente - Por intrad\u00f3s - Imp 300"
+              },
+              "zapata_argotec_grout": {
+                "text": "Zapata - Argotec GROUT"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "instalaciones": {
+    "text": "INSTALACIONES",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "bajantes_baj1": {
+                "text": "Bajantes - BAJ1"
+              },
+              "cuartos_humedos_hum2": {
+                "text": "Cuartos h\u00famedos - HUM2"
+              },
+              "pci_dep1": {
+                "text": "PCI - DEP1"
+              },
+              "foso_ascensor_fos1": {
+                "text": "Foso Ascensor - FOS1"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "divisorias_interiores": {
+    "text": "DIVISORIAS INTERIORES",
+    "soluciones": {
+      "sala_de_maquinas": {
+        "text": "SALA DE M\u00c1QUINAS",
+        "opciones": [
+          {
+            "selector": {
+              "suelos_suf5": {
+                "text": "SUELOS - SUF5"
+              },
+              "tabique_tra3": {
+                "text": "SUELOS - TRA3"
+              },
+              "techo_tef3": {
+                "text": "TECHO - TEF3"
+              }
+            }
+          }
+        ]
+      },
+      "oficinas": {
+        "text": "OFICINAS",
+        "opciones": [
+          {
+            "selector": {
+              "suelos_suf1": {
+                "text": "SUELOS - SUF1"
+              },
+              "tabique_div2": {
+                "text": "TABIQUE - DIV2"
+              },
+              "techo_tef1": {
+                "text": "TECHO - TEF1"
+              },
+              "divisoria_div2": {
+                "text": "DIVISORIA - DIV2"
+              }
+            }
+          }
+        ]
+      },
+      "sala_clases_comunes": {
+        "text": "SALA CLASES COMUNES",
+        "opciones": [
+          {
+            "selector": {
+              "suelos_suf3": {
+                "text": "SUELOS - SUF3"
+              },
+              "tabique_fch3": {
+                "text": "TABIQUE - FCH3"
+              },
+              "techo_tef1": {
+                "text": "TECHO - TEF1"
+              },
+              "divisoria_div2": {
+                "text": "DIVISORIA - DIV2"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "cubierta_azotea": {
+    "text": "CUBIERTA\/AZOTEA",
+    "soluciones": {
+      "transitable": {
+        "text": "TRANSITABLE",
+        "opciones": {
+          "cubierta_tecnica": {
+            "text": "Cubierta t\u00e9cnica",
+            "selector": {
+              "unifamiliar_cubierta_plana_lbm_tpd1": {
+                "text": "Unifamiliar - Cubierta Plana - LBM - TPD1"
+              },
+              "unifamiliar_cubierta_plana_pvc_tpd3": {
+                "text": "Unifamiliar - Cubierta Plana - PVC - TPD3"
+              },
+              "plurifamiliar_cubierta_plana_lbm_tpd1": {
+                "text": "Plurifamiliar - Cubierta Plana - LBM - TPD1"
+              },
+              "plurifamiliar_cubierta_plana_pvc_tpd3": {
+                "text": "Plurifamiliar - Cubierta Plana - PVC - TPD3"
+              }
+            }
+          },
+          "pavimentos_plots": {
+            "text": "Pavimento\/Plots",
+            "selector": {
+              "unifamiliar_cubierta_plana_lbm_tpp1": {
+                "text": "Unifamiliar - Cubierta Plana - LBM - TPP1"
+              },
+              "unifamiliar_cubierta_plana_pvc_tpp3": {
+                "text": "Unifamiliar - Cubierta Plana - PVC - TPP3"
+              },
+              "plurifamiliar_cubierta_plana_lbm_tpp1": {
+                "text": "Plurifamiliar - Cubierta Plana - LBM - TPP1"
+              },
+              "plurifamiliar_cubierta_plana_pvc_tpp3": {
+                "text": "Plurifamiliar - Cubierta Plana - PVC - TPP3"
+              }
+            }
+          },
+          "zonas_comunes": {
+            "text": "Zonas comunes (s\/aisl)",
+            "selector": {
+              "plurifamiliar_cubierta_plana_lbm_tpc1": {
+                "text": "Plurifamiliar - Cubierta Plana - LBM - TPC1"
+              }
+            }
+          }
+        }
+      },
+      "no_transitable": {
+        "text": "NO TRANSITABLE",
+        "opciones": {
+          "grava": {
+            "text": "Grava",
+            "selector": {
+              "unifamiliar_cubierta_plana_lbm_ntg1": {
+                "text": "Unifamiliar - Cubierta Plana - LBM - NTG1"
+              },
+              "unifamiliar_cubierta_plana_pvc_ntg3": {
+                "text": "Unifamiliar - Cubierta Plana - PVC - NTG3"
+              },
+              "plurifamiliar_cubierta_plana_lbm_ntg1": {
+                "text": "Plurifamiliar - Cubierta Plana - LBM - NTG1"
+              },
+              "plurifamiliar_cubierta_plana_pvc_ntg3": {
+                "text": "Plurifamiliar - Cubierta Plana - PVC - NTG3"
+              }
+            }
+          },
+          "acabado_impermeabilizacion": {
+            "text": "Acabado impermeabilizaci\u00f3n",
+            "selector": {
+              "unifamiliar_cubierta_plana_lbm_ntv2": {
+                "text": "Unifamiliar - Cubierta Plana - LBM - NTV2"
+              },
+              "unifamiliar_cubierta_plana_pvc_ntv10": {
+                "text": "Unifamiliar - Cubierta Plana - PVC - NTV10"
+              },
+              "plurifamiliar_cubierta_plana_lbm_ntv2": {
+                "text": "Plurifamiliar - Cubierta Plana - LBM - NTV2"
+              },
+              "plurifamiliar_cubierta_plana_pvc_ntv10": {
+                "text": "Plurifamiliar - Cubierta Plana - PVC - NTV10"
+              }
+            }
+          },
+          "teja": {
+            "text": "Teja",
+            "selector": {
+              "plurifamiliar_cubierta_inclinada_lbm_inc3": {
+                "text": "Plurifamiliar - Cubierta Incliada - LBM - INC3"
+              }
+            }
+          }
+        }
+      },
+      "ajardinada": {
+        "text": "AJARDINADA",
+        "opciones": {
+          "extensiva": {
+            "text": "Extensiva",
+            "selector": {
+              "unifamiliar_cubierta_plana_lbm_ext1": {
+                "text": "Unifamiliar - Cubierta Plana - LBM - EXT1"
+              },
+              "unifamiliar_cubierta_plana_pvc_ext2": {
+                "text": "Unifamiliar - Cubierta Plana - PVC - EXT2"
+              },
+              "plurifamiliar_cubierta_plana_lbm_ext1": {
+                "text": "Plurifamiliar - Cubierta Plana - LBM - EXT1"
+              },
+              "plurifamiliar_cubierta_plana_pvc_ext2": {
+                "text": "Plurifamiliar - Cubierta Plana - PVC - EXT2"
+              }
+            }
+          },
+          "intensiva": {
+            "text": "Intensiva",
+            "selector": {
+              "unifamiliar_cubierta_plana_lbm_int1": {
+                "text": "Unifamiliar - Cubierta Plana - LBM - INT1"
+              },
+              "unifamiliar_cubierta_plana_pvc_int2": {
+                "text": "Unifamiliar - Cubierta Plana - PVC - INT2"
+              },
+              "plurifamiliar_cubierta_plana_lbm_int1": {
+                "text": "Plurifamiliar - Cubierta Plana - LBM - INT1"
+              },
+              "plurifamiliar_cubierta_plana_pvc_int2": {
+                "text": "Plurifamiliar - Cubierta Plana - PVC - INT2"
+              }
+            }
+          }
+        }
+      },
+      "acustica": {
+        "text": "AC\u00daSTICA",
+        "opciones": [
+          {
+            "selector": {
+              "unifamiliar_cubierta_plana_lbm_acu3": {
+                "text": "Unifamiliar - Cubierta Plana - LBM - ACU3"
+              },
+              "plurifamiliar_cubierta_plana_lbm_acu3": {
+                "text": "Plurifamiliar - Cubierta Plana - LBM - ACU3"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "tendederos": {
+    "text": "TENDEDEROS",
+    "soluciones": [
+      {
+        "text": "Danopur Terrazas\/Danocret Protect Flex",
+        "opciones": [
+          {
+            "selector": {
+              "danopur_terrazas_danocret_protect_flex_hum2": {
+                "text": "Danopur Terrazas\/Danocret Protect Flex - HUM2"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fachada": {
+    "text": "FACHADA",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "aisl_interior_tabique_ceramico_fch3": {
+                "text": "Aisl. interior - Tabique cer\u00e1mico - FCH3"
+              },
+              "aisl_interior_tabique_yeso_laminado_fch4": {
+                "text": "Aisl. interior - Tabique yeso laminado - FCH4"
+              },
+              "aisl_exterior_sate_fch1": {
+                "text": "Aisl. Exterior (SATE) - FCH1"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "divisorias_interiores": {
+    "text": "DIVISORIAS INTERIORES",
+    "soluciones": {
+      "suelos_flotantes": {
+        "text": "SUELOS FLOTANTES",
+        "opciones": {
+          "s_aislamiento": {
+            "text": "s\/aislamiento",
+            "selector": {
+              "privado_acabado_madera_suf1": {
+                "text": "Privado - Acabado madera - SUF1"
+              },
+              "privado_acabado_ceramico_suf2": {
+                "text": "Privado - Acabado cer\u00e1mico - SUF2"
+              },
+              "publico_zonas_de_actividad_suf5": {
+                "text": "P\u00fablico - Zonas de actividad - SUF5"
+              }
+            }
+          },
+          "c_aislamiento": {
+            "text": "c\/aislamiento",
+            "selector": {
+              "privado_acabado_madera_suf3": {
+                "text": "Privado - Acabado madera - SUF3"
+              },
+              "privado_acabado_ceramico_suf3": {
+                "text": "Privado - Acabado cer\u00e1mico - SUF3"
+              },
+              "publico_zonas_de_actividad_suf5": {
+                "text": "P\u00fablico - Zonas de actividad - SUF5"
+              }
+            }
+          }
+        }
+      },
+      "divisorias_verticales": {
+        "text": "DIVISORIAS VERTICALES",
+        "opciones": [
+          {
+            "selector": {
+              "tabique_ceramico_div1": {
+                "text": "Tabique cer\u00e1mico - DIV1"
+              },
+              "tabique_yeso_laminado_div2": {
+                "text": "Tabique yeso laminado - DIV2"
+              }
+            }
+          }
+        ]
+      },
+      "trasdosados": {
+        "text": "TRASDOSADOS",
+        "opciones": [
+          {
+            "selector": {
+              "instalaciones_zonas_comunes_tra1": {
+                "text": "Instalaciones\/Zonas comunes - TRA1"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "zonas_comunes": {
+    "text": "ZONAS COMUNES",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "piscina_pis1": {
+                "text": "Piscina - PIS1"
+              },
+              "fuentes_pfe1": {
+                "text": "Fuentes - PFE1"
+              },
+              "zonas_pavimentadas_publicas_tpc1": {
+                "text": "Zonas  pavimentadas - P\u00fablicas - TPC1"
+              },
+              "zonas_pavimentadas_privadas_tpc2": {
+                "text": "Zonas  pavimentadas - Privadas - TPC2"
+              },
+              "zonas_ajardinadas_extensivas_ext1": {
+                "text": "Zonas ajardinadas - Extensivas - EXT1"
+              },
+              "zonas_ajardinadas_intensivas_int1": {
+                "text": "Zonas ajardinadas - Intensivas -INT1"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "parking": {
+    "text": "PARKING",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "rodadura_hormigon_tvh1": {
+                "text": "Rodadura hormig\u00f3n - TVH1"
+              },
+              "aglomerado_asfaltico_tva1": {
+                "text": "Aglomerado asf\u00e1ltico - TVA1"
+              },
+              "aglomerado_asfaltico_tva3": {
+                "text": "Aglomerado asf\u00e1ltico - TVA3"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "estructuras_enterradas": {
+    "text": "ESTRUCTURAS ENTERRADAS",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "losa_los1": {
+                "text": "Losa - LOS1"
+              },
+              "solera_sol1": {
+                "text": "Solera - SOL1"
+              },
+              "muro_flexoresistente_por_trasdos_mur1": {
+                "text": "Muro Flexoresistente - Por trasd\u00f3s - MUR1"
+              },
+              "muro_flexoresistente_por_intrados_argotec_imp_300": {
+                "text": "Muro Flexoresistente - Por intrad\u00f3s - ARGOTEC Imp. 300"
+              },
+              "muro_flexoresistente_por_intrados_argotec_danocret_protect_flex": {
+                "text": "Muro Flexoresistente - Por intrad\u00f3s - Danocret Protect Flex"
+              },
+              "zapata_argotec_grout": {
+                "text": "Zapata - Argotec GROUT"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "instalaciones": {
+    "text": "INSTALACIONES",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "bajantes_baj1": {
+                "text": "Bajantes - BAJ1"
+              },
+              "cuartos_humedos_hum2": {
+                "text": "Cuartos h\u00famedos - HUM2"
+              },
+              "pci_dep1": {
+                "text": "PCI - DEP1"
+              },
+              "foso_ascensor_fos1": {
+                "text": "Foso Ascensor - FOS1"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cuartos_de_instalaciones": {
+    "text": "CUARTOS DE INSTALACIONES",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "suelo_suf5": {
+                "text": "Suelo - SUF5"
+              },
+              "trasdosado_tra3": {
+                "text": "Trasdosado - TRA3"
+              },
+              "techo_tef3": {
+                "text": "TECHO - TEF3"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

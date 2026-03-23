@@ -1,0 +1,48 @@
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=reset],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+select,
+textarea {
+    width: 100%;
+}
+
+#energy-saving-calculator-request>form>div:nth-child(4)>div:nth-child(2) {
+    display: flex;
+    margin-top: 27px;
+    font-weight: bold;
+}
+
+.et_pb_contact_submit {
+    font-size: 1.2em;
+    width: 100%;
+}
+
+#energy-saving-calculator-request .et_pb_contact_field_options_list {
+    display: flex;
+    flex-direction: column;
+}
+
+#ubicacion li {
+    padding: 5px 0;
+}
+
+#energy-saving-calculator-result form {
+    margin-top: 1.5em;
+}
+
+#energy-saving-calculator-result form label.et_pb_contact_form_label {
+    margin-bottom: 5px;
+    display: block;
+}
+.result-form {
+    display: flex;
+    flex-direction: column;
+}
+.result-form-2 {
+    display: block;
+}

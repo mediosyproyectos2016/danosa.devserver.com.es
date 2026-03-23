@@ -1,0 +1,178 @@
+{
+    "divisorias_interiores": {
+        "text": "DIVIS\u00d3RIAS INTERIORES",
+        "soluciones": {
+            "suelos_flotantes": {
+                "text": "PISO FLOTANTES",
+                "opciones": {
+                    "s_aislamiento": {
+                        "text": "s\/isolamento",
+                        "selector": {
+                            "privado_acabado_madera_suf1": {
+                                "text": "Privado - Acabamento madeira - Pavimento flutuante b\u00e1sico (acabamento laminado de madeira) - SUF1"
+                            },
+                            "privado_acabado_ceramico_suf2": {
+                                "text": "Privado - Acabamento cer\u00e2mico - Pavimento flutuante b\u00e1sico (acabamento cer\u00e2mico) - SUF2"
+                            },
+                            "publico_zonas_de_actividad_suf5": {
+                                "text": "P\u00fablico - \u00c1reas de actividade - Pavimento flutuante para zonas de cargas elevadas - Pavimento flutuante para zonas de cargas elevadas - SUF5"
+                            }
+                        }
+                    },
+                    "c_aislamiento": {
+                        "text": "c\/aislamiento",
+                        "selector": {
+                            "privado_acabado_madera_suf3": {
+                                "text": "Privado - Acabamento madeira - Pavimento flutuante b\u00e1sico termoac\u00fastico - SUF3"
+                            },
+                            "privado_acabado_ceramico_suf3": {
+                                "text": "Privado - Acabamento cer\u00e2mico - Pavimento flutuante b\u00e1sico termoac\u00fastico - SUF3"
+                            },
+                            "publico_zonas_de_actividad_suf5": {
+                                "text": "P\u00fablico - \u00c1reas de actividade - Pavimento flutuante para zonas de cargas elevadas - Pavimento flutuante para zonas de cargas elevadas - SUF5"
+                            }
+                        }
+                    }
+                }
+            },
+            "divisorias_verticales": {
+                "text": "DIVIS\u00d3RIAS VERTICALES",
+                "opciones": [
+                    {
+                        "selector": {
+                            "tabique_yeso_laminado_div2": {
+                                "text": "Divis\u00f3ria de gesso laminado - Divis\u00f3ria dupla em gesso cartonado - DIV2"
+                            },
+                            "mampara - MAD": {
+                                "text": "Divis\u00f3ria - MAD"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pavimentos": {
+        "text": "PAVIMENTOS",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "text": "s\/isolamento",
+                        "selector": {
+                            "pav1": {
+                                "text": "PAV1"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "zonas_comunes": {
+        "text": "ZONAS COMUNS",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "fuentes_laminas_de_agua_pfe1": {
+                                "text": "Fontes\/L\u00e2minas de \u00e1gua - Piscinas, fontes e tanques - PFE1"
+                            },
+                            "zonas_pavimentadas_publicas_tpc1": {
+                                "text": "Zonas  pavimentadas - P\u00fablicas - Cobertura plana transit\u00e1vel para zonas comuns de uso privado com membranas betuminosas (SBS) - TPC1"
+                            },
+                            "zonas_pavimentadas_privadas_tpc2": {
+                                "text": "Zonas  pavimentadas - Privadas - Cobertura plana transit\u00e1vel para zonas comuns de uso p\u00fablico com membranas betuminosas (SBS) - TPC2"
+                            },
+                            "zonas_ajardinadas_extensivas_ext1": {
+                                "text": "Zonas  ajardinadas - Extensivas - Cobertura plana invertida ajardinada extensiva com membranas betuminosas (SBS) - EXT1"
+                            },
+                            "zonas_ajardinadas_intensivas_int1": {
+                                "text": "Zonas  ajardinadas - Intensivas -Cobertura plana invertida ajardinada intensiva com membranas betuminosas (SBS) - INT1"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "estructuras_enterradas": {
+        "text": "ESTRUTURAS ENTERRADAS",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "losa_los1": {
+                                "text": "Laje - Laje de Pavimento t\u00e9rreo com membrana betuminosa (SBS) - LOS1"
+                            },
+                            "solera_sol1": {
+                                "text": "Soleira - Laje sobre terreno compactado para tr\u00e1fego autom\u00f3vel com membrana betuminosa (SBS) - SOL1"
+                            },
+                            "muro_flexoresistente_por_extrasdos_mur1": {
+                                "text": "Muro Flexoresistente - Por extrasdos - Muros de suporte ou panos enterrados com membrana betuminosa (SBS) - MUR1"
+                            },
+                            "muro_flexoresistente_por_intrados_argotec_imp_300": {
+                                "text": "Muro Flexoresistente - Pro intrados - Argotec 300 Imp."
+                            },
+                            "muro_flexoresistente_por_intrados_danocret_protect_flex": {
+                                "text": "Muro Flexoresistente - Pro intrados - Danocret Protect Flex"
+                            },
+                            "zapata_argotec_grout": {
+                                "text": "Sapata - Argotec GROUT"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "instalaciones": {
+        "text": "INSTALA\u00c7\u00d5ES",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "bajantes_baj1": {
+                                "text": "Tubagem - Tubagem de descarga em edi\u00edcios resid\u00eanciais - BAJ1"
+                            },
+                            "cuartos_humedos_hum2": {
+                                "text": "Salas \u00famidas - \u00c1reas h\u00famidas interiores com membrana l\u00edquida - HUM2"
+                            },
+                            "pci_dep1": {
+                                "text": "PCI - Dep\u00f3sitos de \u00e1gua pot\u00e1vel com PVC - DEP1"
+                            },
+                            "foso_ascensor_fos1": {
+                                "text": "Fosso Elevador - Fosso de elevador - FOS1"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "cuartos_de_instalaciones": {
+        "text": "CUARTOS DE INSTALACIONES",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "suelo_suf5": {
+                                "text": "Suelo - Pavimento flutuante para zonas de cargas elevadas - Pavimento flutuante para zonas de cargas elevadas - SUF5"
+                            },
+                            "trasdosado_tra3": {
+                                "text": "Trasdosado - Trasdosado para locais de emiss\u00e3o >90 dB com m\u00fasica - TRA3"
+                            },
+                            "techo_tef3": {
+                                "text": "TETO - Teto flutuante para locais com emiss\u00e3o >90 dBA com m\u00fasica - TEF3"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

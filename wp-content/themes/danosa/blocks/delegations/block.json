@@ -1,0 +1,14 @@
+{
+    "name": "acf/delegations",
+    "title": "Delegations",
+    "description": "A custom Delegations block.",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["delegations", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "delegations.php"
+    },
+    "align": "full"
+}
+

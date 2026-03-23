@@ -1,0 +1,318 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Danosa - Design your project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-25 13:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.8; wp-5.9.4\n"
+"X-Domain: danosa-design-your-project"
+
+#: online_project/prescripcion_online_valoracion.php:167
+msgid "* Importe aproximado. Faltan precios por consultar"
+msgstr ""
+
+#: online_project/_registro.php:30
+#: online_project/prescripcion_online_valoracion.php:64
+msgid "Actividad"
+msgstr ""
+
+#: online_project/_solucion.php:125
+msgid "Agregar partida"
+msgstr ""
+
+#: online_project/prescripcion_online.php:84
+msgid "AGREGAR PARTIDAS"
+msgstr ""
+
+#: online_project/_registro.php:15
+#: online_project/prescripcion_online_valoracion.php:50
+msgid "Apellidos"
+msgstr ""
+
+#: online_project/_registro.php:36
+msgid "Arquitectura / Ingeniería"
+msgstr ""
+
+#: online_project/_solucion.php:353
+msgid "Añade al menos una partida o sistema"
+msgstr ""
+
+#: online_project/_partida.php:87
+msgid "Añadir partida"
+msgstr ""
+
+#: online_project/_sistemas.php:63
+msgid "Añadir sistema"
+msgstr ""
+
+#: online_project/prescripcion_online_valoracion.php:55
+msgid "Ciudad"
+msgstr ""
+
+#: online_project/prescripcion_online.php:73
+msgid "COMERCIAL"
+msgstr ""
+
+#: online_project/_solucion.php:364
+msgid "Completa los datos de las partidas"
+msgstr ""
+
+#: online_project/_registro.php:34
+msgid "Constructora"
+msgstr ""
+
+#. Name of the template
+msgid "Country Selector"
+msgstr ""
+
+#: online_project/prescripcion_online.php:33
+msgid "Código postal"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - CAD"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Calculator"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - FAQs"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Form Views"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Merchants"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Online projects"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Products"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Systems"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Systems Acoustic"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Tools"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - With Header"
+msgstr ""
+
+#. Name of the template
+msgid "Danosa - Works"
+msgstr ""
+
+#: online_project/_registro.php:4
+msgid "Datos del solicitante"
+msgstr ""
+
+#: online_project/prescripcion_online.php:75
+msgid "DEPORTIVO"
+msgstr ""
+
+#: online_project/_sistemas.php:1
+msgid "DISTRIBUCIÓN DE PARTIDAS"
+msgstr ""
+
+#: online_project/_registro.php:38
+msgid "Distribuidor"
+msgstr ""
+
+#: online_project/_partida.php:97
+msgid "DOCUMENTACIÓN"
+msgstr ""
+
+#: online_project/_registro.php:56
+msgid "E-mail"
+msgstr ""
+
+#: online_project/_solucion.php:18
+msgid "ELIJA LA OPCIÓN QUE DESEA AÑADIR"
+msgstr ""
+
+#: online_project/_registro.php:24
+#: online_project/prescripcion_online_valoracion.php:62
+msgid "Empresa"
+msgstr ""
+
+#: online_project/_registro.php:40
+msgid "Estudiante"
+msgstr ""
+
+#: online_project/_partida.php:64
+msgid "formato"
+msgstr ""
+
+#: online_project/_partida.php:99 online_project/_solucion.php:394
+msgid "Generar documentación"
+msgstr ""
+
+#: online_project/prescripcion_online.php:74
+msgid "HOSPITALARIO"
+msgstr ""
+
+#: online_project/_solucion.php:359
+msgid "Indica un nombre de proyecto"
+msgstr ""
+
+#: online_project/prescripcion_online.php:71
+msgid "INDUSTRIAL"
+msgstr ""
+
+#: online_project/_registro.php:37
+msgid "Instalador"
+msgstr ""
+
+#: online_project/prescripcion_online.php:39
+msgid "Localidad"
+msgstr ""
+
+#: online_project/_registro.php:9
+#: online_project/prescripcion_online_valoracion.php:48
+msgid "Nombre"
+msgstr ""
+
+#: online_project/prescripcion_online.php:25
+msgid "Nombre del proyecto"
+msgstr ""
+
+#: online_project/prescripcion_online.php:72
+msgid "OFICINAS"
+msgstr ""
+
+#: online_project/_registro.php:41
+msgid "Otros"
+msgstr ""
+
+#: online_project/_registro.php:39
+msgid "Particular"
+msgstr ""
+
+#: online_project/prescripcion_online_valoracion.php:76
+#: online_project/prescripcion_online_valoracion.php:121
+msgid "Partida"
+msgstr ""
+
+#: online_project/prescripcion_online_valoracion.php:124
+msgid "Precio"
+msgstr ""
+
+#: online_project/_registro.php:35
+msgid "Promotora"
+msgstr ""
+
+#: online_project/prescripcion_online.php:48
+#: online_project/prescripcion_online_valoracion.php:57
+msgid "Provincia"
+msgstr ""
+
+#: online_project/prescripcion_online.php:70
+msgid "RESIDENCIAL"
+msgstr ""
+
+#: online_project/prescripcion_online_valoracion.php:72
+msgid "Resumen"
+msgstr ""
+
+#: online_project/_partida.php:138
+msgid "Seleccione el <strong>tipo de zona</strong>"
+msgstr ""
+
+#: online_project/_sistemas.php:51
+msgid "SELECCIONE EL SISTEMA"
+msgstr ""
+
+#: online_project/_partida.php:75
+msgid "SELECCIONE EL TIPO"
+msgstr ""
+
+#: online_project/_partida.php:132
+msgid "Seleccione los <strong>m2</strong>"
+msgstr ""
+
+#: online_project/_partida.php:206 online_project/_partida.php:211
+msgid "Seleccione un Tipo de Obra"
+msgstr ""
+
+#: online_project/_registro.php:33
+msgid "Seleccione una actividad ..."
+msgstr ""
+
+#: online_project/prescripcion_online.php:51
+msgid "Seleccione una provincia"
+msgstr ""
+
+#: online_project/_sistemas.php:48
+msgid "Sistema"
+msgstr ""
+
+#: online_project/prescripcion_online_valoracion.php:78
+#: online_project/prescripcion_online_valoracion.php:122
+msgid "Solución"
+msgstr ""
+
+#: online_project/_registro.php:173
+msgid "Su descarga se ha completado"
+msgstr ""
+
+#: online_project/_registro.php:50
+msgid "Teléfono"
+msgstr ""
+
+#: online_project/_solucion.php:356
+msgid ""
+"Tiene partidas pendientes de añadir, finalice la seleccción o elimine la "
+"partida"
+msgstr ""
+
+#: online_project/prescripcion_online.php:66
+#: online_project/prescripcion_online.php:69
+msgid "Tipo de obra"
+msgstr ""
+
+#: online_project/prescripcion_online_valoracion.php:125
+#: online_project/prescripcion_online_valoracion.php:169
+msgid "Total"
+msgstr ""
+
+#: online_project/prescripcion_online_valoracion.php:35
+#: online_project/prescripcion_online_valoracion.php:117
+msgid "Valoración"
+msgstr ""
+
+#: online_project/_solucion.php:115
+msgid "Ver solución"
+msgstr ""
+
+#: online_project/_registro.php:85 online_project/_solucion.php:390
+msgid "Volver"
+msgstr ""
+
+#: online_project/_partida.php:72
+#: online_project/prescripcion_online_valoracion.php:70
+msgid "Zona de actuación"
+msgstr ""

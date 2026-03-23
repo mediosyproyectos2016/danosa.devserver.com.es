@@ -1,0 +1,6 @@
+{
+  "require": {
+    "mpdf/mpdf": "^8.0",
+    "algolia/algoliasearch-client-php": "^3.1"
+  }
+}

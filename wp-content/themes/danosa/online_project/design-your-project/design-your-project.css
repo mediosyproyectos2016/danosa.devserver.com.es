@@ -1,0 +1,549 @@
+#design-your-project {
+    margin-bottom: 70px;
+}
+
+.partidas .wp-block-columns {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+/*partidas*/
+
+.partidas button {
+    font-size: 16px;
+    height: 64px;
+    border-radius: 4px;
+}
+
+.partidas .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 0 10px 0;
+}
+
+.partidas .header i {
+    cursor: pointer;
+}
+
+/*
+.partidas .completed .header h4:before {
+    content: "✓";
+    color: #21cf2e;
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+    line-height: 24px;
+}
+*/
+
+.horizontal .selector button {}
+
+.partidas .added button:before {
+    content: "";
+    font-family: "danosa";
+    font-size: 30px;
+    margin-right: 10px;
+    vertical-align: sub;
+}
+
+.select-option-horizontal {}
+
+.setSolucionHorizontal {
+    margin-left: 0;
+}
+
+.partidas .wp-block-columns.body {
+    padding: 0;
+}
+
+/*soluciones*/
+
+.soluciones {
+    width: 100%;
+}
+
+.soluciones .vertical,
+.soluciones .vertical2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.soluciones .vertical label,
+.soluciones .vertical2 label {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    line-height: 1.25em;
+    padding: 10px 0;
+}
+
+.soluciones .vertical label input,
+.soluciones .vertical2 label input {
+    width: 20px !important;
+    min-width: 20px;
+    margin-right: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.soluciones .vertical2 {
+    border-top: 1px solid #dddddd;
+}
+
+.registro h5,
+.soluciones .partida h5 {
+    color: #666;
+    font-size: 14px;
+    margin-top: 2em;
+}
+
+/*alternate*/
+
+.wp-block-columns.alternate {
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.wp-block-columns.add_panel {
+    align-items: end;
+}
+
+/*old*/
+
+.select2-selection__rendered {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    line-height: 41px !important;
+}
+
+span.select2-selection.select2-selection--single {
+    border: none;
+    height: 41px;
+}
+
+span.select2-selection__arrow {
+    top: 7px !important;
+}
+
+.partidas .header button {
+    height: 42px;
+    float: right;
+}
+
+.partidas .select2-container {
+    width: 100% !important;
+}
+
+.PrescripcionSistemas .partidas .added button {
+    opacity: 0;
+    margin-top: 0px;
+    height: auto;
+    background: #0000;
+    color: #0069b4;
+    border: 1px solid #0069b4;
+}
+
+.PrescripcionSistemas .partidas .added:hover button {
+    opacity: 1;
+}
+
+.registro .buttons,
+.soluciones .buttons {
+    margin: 20px 10px 0 0;
+    float: left;
+}
+
+.registro .buttons button,
+.soluciones .buttons button,
+.registro .buttons input[type=submit],
+.soluciones .buttons input[type=submit] {
+    border: none;
+    background-color: #0069b4;
+    color: #fff;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1;
+    border-radius: 2px;
+    padding: 15px 30px;
+}
+
+.soluciones .wp-block-column button {
+    height: 42px;
+    float: right;
+}
+
+.solucionesContent .added {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.registro h4 {
+    float: left;
+    clear: both;
+    width: 100%;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.soluciones .partida h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.solucionesContent .added partida {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.registro .wp-block-columns {
+    float: left;
+    width: 100%;
+}
+
+.registro .wpcf7-form-control-wrap {
+    width: 100%;
+    float: left;
+}
+
+.registro .select2 {
+    width: 100% !important;
+}
+
+.flexcolumn {
+    flex-grow: 1;
+}
+
+.flexrow {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#resumen .flexcolumn {
+    max-width: 50%;
+    padding: 2%;
+}
+
+#resumen .flexcolumn label {
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#resumen .flexcolumn span {}
+
+/**/
+
+.valoracion {
+    width: 100%;
+    padding: 2%;
+}
+
+.valoracion h1,
+.valoracion h2 {
+    margin-bottom: 10px
+}
+
+.valoracion table label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.grecaptcha-badge {
+    bottom: 90px !important;
+}
+
+.form_view {}
+
+.form_view input,
+.form_view select {
+    padding: 0 2px !important;
+    height: 25px;
+}
+
+._sistemas label {
+    float: left;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+._sistemas h5 {
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    font-size: 12px;
+}
+
+._sistemas input {
+    float: left;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+._sistemas input[type="text"] {
+    margin-left: 15px !important;
+    margin-right: 10px !important;
+    max-width: 116px !important;
+}
+
+._sistemas strong {
+    float: left;
+    clear: both;
+}
+
+.filter input[type=text] {
+    margin: 0;
+    max-width: 110px;
+}
+
+.filter input[type=date] {
+    margin: 0;
+    max-width: 110px;
+}
+
+.filter select {
+    margin: 0;
+    max-width: 110px;
+}
+
+.filter th {
+    padding: 2px;
+}
+
+.widthComments .widthoutComments {
+    display: none;
+}
+
+.widthoutComments .widthComments {
+    display: none;
+}
+
+.lighboxComments .featherlight-content,
+.lighboxProject .featherlight-content {
+    width: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+.flexrow.sistemas {
+    margin-bottom: 25px;
+}
+
+.flexrow.sistemas .flexcolumn {
+    background-color: #0069b4;
+    margin: 10px;
+    max-width: 100px;
+    padding: 10px;
+    position: relative;
+    border-radius: 17px;
+    color: white;
+}
+
+.flexcolumn span.delete {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.flexcolumn span.delete:hover {
+    color: red;
+}
+
+a.wp-block-button__link {
+    position: relative;
+}
+
+span.sthn {
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    background-color: #EEF3F6;
+    border-radius: 2px;
+    padding: 2px 4px;
+    color: #0069B4;
+    font-weight: bold;
+}
+
+.setSolucionHorizontal li {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #DDD;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgb(179 223 255 / 25%);
+    background-color: #FFF;
+    padding: 10px 16px;
+    align-items: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.setSolucionHorizontal li.selected,
+.setSolucionHorizontal li:hover {
+    border: 3px solid #b3dfff;
+}
+
+.setSolucionHorizontal .danosa-arrow-go {
+    opacity: 0;
+    color: #0069b4;
+}
+
+.setSolucionHorizontal li.selected i.danosa-arrow-go,
+.setSolucionHorizontal li:hover i.danosa-arrow-go {
+    opacity: 1;
+}
+
+.setSolucionHorizontal li a {
+    opacity: 0;
+    min-width: 110px;
+    text-align: right;
+    font-weight: bold;
+    color: #0069b4;
+}
+
+.setSolucionHorizontal li:hover a {
+    opacity: 1;
+}
+
+.setSolucionHorizontal li input {
+    display: none;
+}
+
+.setSolucionHorizontal {
+    list-style: none;
+}
+
+span.subsystem-system-title {
+    font-weight: bold;
+    margin-right: 10px;
+    min-width: 75px;
+}
+
+span.subsystem-system-name {
+    width: 100%;
+}
+
+/*
+.partida button{
+    display: none;
+}
+.partida:hover:only-child button {
+    display: block;
+}
+ */
+
+.add_alternate .add_ico:before {
+    content: "";
+    font-family: danosa;
+    font-size: 30px;
+    text-align: center;
+    margin-left: CALC(50% - 25px);
+    background-color: #0069b4;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+.systeminputmm input::-webkit-outer-spin-button,
+.systeminputmm input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+
+.systeminputmm {
+    display: flex;
+    align-items: center;
+}
+
+.partidas .header>h4 {
+    min-width: calc(100% - 260px);
+}
+
+.systeminputmm input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.systeminputmm input {
+    float: left;
+    text-align: right;
+    width: 100px !important;
+    font-weight: bold;
+    height: 20px;
+    margin: 0px;
+    font-size: 20px !important;
+}
+
+.systeminputmm span {
+    float: left;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.systembutton button {
+    float: right;
+}
+
+.systemtext {
+    font-weight: bold;
+}
+
+.systemdescription p {
+    margin: 0;
+}
+
+.sistemas .added {
+    width: 100%;
+}
+
+.partida.sistema {
+    width: 100%;
+}
+
+.setSolucionHorizontal button {
+    position: absolute;
+    right: 6px;
+    height: 24px !important;
+    font-size: 12px !important;
+    line-height: 3px;
+    opacity: 0.5;
+    top: 6px;
+}
+
+.setSolucionHorizontal button:before {
+    content: "" !important;
+    font-size: 12px !important;
+    vertical-align: top !important;
+}
+
+.partidas-add-container h4 {
+    margin: 1em 0;
+}

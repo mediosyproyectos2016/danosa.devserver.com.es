@@ -1,0 +1,268 @@
+{
+  "cubierta": {
+    "text": "CUBIERTA",
+    "soluciones": {
+      "reflectante": {
+        "text": "REFLECTANTE",
+        "opciones": [
+          {
+            "selector": {
+              "hormigon_ntv10": {
+                "text": "HORMIG\u00d3N - NTV10"
+              },
+              "deck_ref1": {
+                "text": "DECK - REF1"
+              },
+              "deck_ref2": {
+                "text": "DECK - REF2"
+              },
+              "deck_ref3": {
+                "text": "DECK - REF3"
+              },
+              "deck_ref4": {
+                "text": "DECK - REF4"
+              },
+              "deck_acu2": {
+                "text": "DECK - ACU2"
+              },
+              "deck_nox2": {
+                "text": "DECK - NOX2"
+              }
+            }
+          }
+        ]
+      },
+      "autoprotegida": {
+        "text": "AUTOPROTEGIDA",
+        "opciones": [
+          {
+            "selector": {
+              "deck_ntv6": {
+                "text": "DECK - NTV6"
+              },
+              "deck_ntv12": {
+                "text": "DECK - NTV12"
+              }
+            }
+          }
+        ]
+      },
+      "acustica": {
+        "text": "AC\u00daSTICA",
+        "opciones": [
+          {
+            "selector": {
+              "deck_acu1": {
+                "text": "DECK - ACU1"
+              }
+            }
+          }
+        ]
+      },
+      "grava": {
+        "text": "GRAVA",
+        "opciones": [
+          {
+            "selector": {
+              "hormigon_ntg1": {
+                "text": "HORMIG\u00d3N - NTG1"
+              }
+            }
+          }
+        ]
+      },
+      "pavimento_plots": {
+        "text": "PAVIMENTO\/PLOTS",
+        "opciones": [
+          {
+            "selector": {
+              "hormigon_tpp1": {
+                "text": "HORMIG\u00d3N - TPP1"
+              }
+            }
+          }
+        ]
+      },
+      "ajardinada": {
+        "text": "AJARDINADA",
+        "opciones": [
+          {
+            "selector": {
+              "hormigon_ext1": {
+                "text": "HORMIG\u00d3N - EXT1"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "divisorias_interiores": {
+    "text": "DIVISORIAS INTERIORES",
+    "soluciones": {
+      "sala_de_maquinas": {
+        "text": "SALA DE M\u00c1QUINAS",
+        "opciones": [
+          {
+            "selector": {
+              "suelos_suf5": {
+                "text": "SUELOS - SUF5"
+              },
+              "techo_tef3": {
+                "text": "TECHO - TEF3"
+              },
+              "trasdosados_tra3": {
+                "text": "TRASDOSADOS - TRA3"
+              }
+            }
+          }
+        ]
+      },
+      "salon_de_actos": {
+        "text": "SAL\u00d3N DE ACTOS",
+        "opciones": [
+          {
+            "selector": {
+              "suelos_suf3": {
+                "text": "SUELOS - SUF3"
+              },
+              "tabique_div2": {
+                "text": "TABIQUE - DIV2"
+              },
+              "techo_tef2": {
+                "text": "TECHO - TEF2"
+              },
+              "trasdosados_tra1": {
+                "text": "TRASDOSADOS - TRA1"
+              }
+            }
+          }
+        ]
+      },
+      "oficinas": {
+        "text": "OFICINAS",
+        "opciones": [
+          {
+            "selector": {
+              "suelos_suf1": {
+                "text": "SUELOS - SUF1"
+              },
+              "tabique_div2": {
+                "text": "TABIQUE - DIV2"
+              },
+              "techo_tef1": {
+                "text": "TECHO - TEF1"
+              },
+              "trasdosados_fch3": {
+                "text": "TRASDOSADOS - FCH3"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parking": {
+    "text": "PARKING",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "rodadura_hormigon_tvh1": {
+                "text": "Rodadura hormig\u00f3n - TVH1"
+              },
+              "rodadura_hormigon_tvh3": {
+                "text": "Rodadura hormig\u00f3n - TVH3"
+              },
+              "aglomerado_asfaltico_tva1": {
+                "text": "Aglomerado asf\u00e1ltico - TVA1"
+              },
+              "aglomerado_asfaltico_tva3": {
+                "text": "Aglomerado asf\u00e1ltico - TVA3"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "pavimentos": {
+    "text": "PAVIMENTOS",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "pav1": {
+                "text": "PAV1"
+              },
+              "pav2": {
+                "text": "PAV2"
+              },
+              "pav3": {
+                "text": "PAV3"
+              },
+              "pav4": {
+                "text": "PAV4"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "estructuras_enterradas": {
+    "text": "ESTRUCTURAS ENTERRADAS",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "losa_los1": {
+                "text": "Losa - LOS1"
+              },
+              "solera_sol1": {
+                "text": "Solera - SOL1"
+              },
+              "muro_flexorresistente_por_extrasdos_mur1": {
+                "text": "Muro Flexorresistente - Por extrasd\u00f3s - MUR1"
+              },
+              "muro_flexorresistente_por_intrados_argotec_300_impermeable": {
+                "text": "Muro Flexorresistente - Por intrad\u00f3s - Argotec 300 Impermeable"
+              },
+              "muro_flexorresistente_por_intrados_danocret_protect_flex": {
+                "text": "Muro Flexorresistente - Por intrad\u00f3s - Danocret Protect Flex"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "instalaciones": {
+    "text": "INSTALACIONES",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "bajantes_baj1": {
+                "text": "Bajantes - BAJ1"
+              },
+              "cuartos_humedos_hum2": {
+                "text": "Cuartos h\u00famedos - HUM2"
+              },
+              "pci_dep1": {
+                "text": "PCI - DEP1"
+              },
+              "foso_ascensor_fos1": {
+                "text": "Foso Ascensor - FOS1"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

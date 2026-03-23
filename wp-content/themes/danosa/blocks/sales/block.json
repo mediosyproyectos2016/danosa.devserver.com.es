@@ -1,0 +1,14 @@
+{
+    "name": "acf/sales",
+    "title": "Sales",
+    "description": "A custom Sales block.",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["sales", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "sales.php"
+    },
+    "align": "full"
+}
+

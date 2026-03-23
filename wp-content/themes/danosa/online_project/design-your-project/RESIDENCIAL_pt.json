@@ -1,0 +1,387 @@
+{
+    "cubierta_azotea": {
+        "text": "COBERTURA\/TERRA\u00c7O",
+        "soluciones": {
+            "transitable": {
+                "text": "TRANSIT\u00c1BEL",
+                "opciones": {
+                    "cubierta_tecnica": {
+                        "text": "Cobertura t\u00e9cnica",
+                        "selector": {
+                            "unifamiliar_cubierta_plana_lbm_tpd1": {
+                                "text": "Unifamiliar - Cobertura plana - LBM - Cobertura plana transit\u00e1vel de uso privado com membranas betuminosas (SBS) e lajetas t\u00e9rmicas - TPD1"
+                            },
+                            "unifamiliar_cubierta_plana_pvc_tpd3": {
+                                "text": "Unifamiliar - Cobertura plana - PVC - Cobertura plana transit\u00e1vel de uso privado com membranas PVC e lajetas t\u00e9rmicas - TPD3"
+                            },
+                            "plurifamiliar_cubierta_plana_lbm_tpd1": {
+                                "text": "Multifamiliar - Cobertura plana - LBM - Cobertura plana transit\u00e1vel de uso privado com membranas betuminosas (SBS) e lajetas t\u00e9rmicas - TPD1"
+                            },
+                            "plurifamiliar_cubierta_plana_pvc_tpd3": {
+                                "text": "Multifamiliar - Cobertura plana - PVC - Cobertura plana transit\u00e1vel de uso privado com membranas PVC e lajetas t\u00e9rmicas - TPD3"
+                            }
+                        }
+                    },
+                    "pavimentos_plots": {
+                        "text": "Pavimento\/Plots",
+                        "selector": {
+                            "unifamiliar_cubierta_plana_lbm_tpp1": {
+                                "text": "Unifamiliar - Cobertura plana - LBM - Cobertura plana transit\u00e1vel de uso privado com membranas betuminosas (SBS), isolamento t\u00e9rmico XPS e acabamento cer\u00e2mico - TPP1"
+                            },
+                            "unifamiliar_cubierta_plana_pvc_tpp3": {
+                                "text": "Unifamiliar - Cobertura plana - PVC - Cobertura plana transit\u00e1vel de uso privado com membrana PVC, isolamento t\u00e9rmico XPS e acabamento cer\u00e2mico - TPP3"
+                            },
+                            "plurifamiliar_cubierta_plana_lbm_tpp1": {
+                                "text": "Multifamiliar - Cobertura plana - LBM - Cobertura plana transit\u00e1vel de uso privado com membranas betuminosas (SBS), isolamento t\u00e9rmico XPS e acabamento cer\u00e2mico - TPP1"
+                            },
+                            "plurifamiliar_cubierta_plana_pvc_tpp3": {
+                                "text": "Multifamiliar - Cobertura plana - PVC - Cobertura plana transit\u00e1vel de uso privado com membrana PVC, isolamento t\u00e9rmico XPS e acabamento cer\u00e2mico - TPP3"
+                            }
+                        }
+                    },
+                    "zonas_comunes": {
+                        "text": "Zonas comuns (s\/aisl)",
+                        "selector": {
+                            "plurifamiliar_cubierta_plana_lbm_tpc1": {
+                                "text": "Multifamiliar - Cobertura plana - LBM - Cobertura plana transit\u00e1vel para zonas comuns de uso privado com membranas betuminosas (SBS) - TPC1"
+                            }
+                        }
+                    }
+                }
+            },
+            "no_transitable": {
+                "text": "N\u00c3O TRANSIT\u00c1VEL",
+                "opciones": {
+                    "grava": {
+                        "text": "Cascalho",
+                        "selector": {
+                            "unifamiliar_cubierta_plana_lbm_ntg1": {
+                                "text": "Unifamiliar - Cobertura plana - LBM - Cobertura plana invertida n\u00e3o transit\u00e1vel com membranas betuminosas (SBS) e acabamento com godo - NTG1"
+                            },
+                            "unifamiliar_cubierta_plana_pvc_ntg3": {
+                                "text": "Unifamiliar - Cobertura plana - PVC - Cobertura plana invertida n\u00e3o transit\u00e1vel com membrana PVC e acabamento com godo - NTG3"
+                            },
+                            "plurifamiliar_cubierta_plana_lbm_ntg1": {
+                                "text": "Multifamiliar - Cobertura plana - LBM - Cobertura plana invertida n\u00e3o transit\u00e1vel com membranas betuminosas (SBS) e acabamento com godo - NTG1"
+                            },
+                            "plurifamiliar_cubierta_plana_pvc_ntg3": {
+                                "text": "Multifamiliar - Cobertura plana - PVC - Cobertura plana invertida n\u00e3o transit\u00e1vel com membrana PVC e acabamento com godo - NTG3"
+                            }
+                        }
+                    },
+                    "acabado_impermeabilizacion": {
+                        "text": "Acabamento de impermeabiliza\u00e7\u00e3o",
+                        "selector": {
+                            "unifamiliar_cubierta_plana_lbm_ntv2": {
+                                "text": "Unifamiliar - Cobertura plana - LBM - Cobertura plana n\u00e3o transit\u00e1vel de bet\u00e3o com membranas betuminosas (SBS) com  acabamento autoprotegido e isolamento PIR - NTV2"
+                            },
+                            "unifamiliar_cubierta_plana_pvc_ntv10": {
+                                "text": "Unifamiliar - Cobertura plana - PVC - Cobertura plana  com membrana de PVC aderida e isolamento t\u00e9rmico XPS - NTV10"
+                            },
+                            "plurifamiliar_cubierta_plana_lbm_ntv2": {
+                                "text": "Multifamiliar - Cobertura plana - LBM - Cobertura plana n\u00e3o transit\u00e1vel de bet\u00e3o com membranas betuminosas (SBS) com  acabamento autoprotegido e isolamento PIR - NTV2"
+                            },
+                            "plurifamiliar_cubierta_plana_pvc_ntv10": {
+                                "text": "Multifamiliar - Cobertura plana - PVC - Cobertura plana  com membrana de PVC aderida e isolamento t\u00e9rmico XPS - NTV10"
+                            }
+                        }
+                    },
+                    "teja": {
+                        "text": "Telha",
+                        "selector": {
+                            "plurifamiliar_cubierta_inclinada_lbm_inc3": {
+                                "text": "Multifamiliar - Cobertura Incliada - LBM - INC3"
+                            }
+                        }
+                    }
+                }
+            },
+            "ajardinada": {
+                "text": "AJARDINADA",
+                "opciones": {
+                    "extensiva": {
+                        "text": "Extensiva",
+                        "selector": {
+                            "unifamiliar_cubierta_plana_lbm_ext1": {
+                                "text": "Unifamiliar - Cobertura plana - LBM - Cobertura plana invertida ajardinada extensiva com membranas betuminosas (SBS) - EXT1"
+                            },
+                            "unifamiliar_cubierta_plana_pvc_ext2": {
+                                "text": "Unifamiliar - Cobertura plana - PVC - Cobertura plana invertida ajardinada extensiva com membrana PVC - EXT2"
+                            },
+                            "plurifamiliar_cubierta_plana_lbm_ext1": {
+                                "text": "Multifamiliar - Cobertura plana - LBM - Cobertura plana invertida ajardinada extensiva com membranas betuminosas (SBS) - EXT1"
+                            },
+                            "plurifamiliar_cubierta_plana_pvc_ext2": {
+                                "text": "Multifamiliar - Cobertura plana - PVC - Cobertura plana invertida ajardinada extensiva com membrana PVC - EXT2"
+                            }
+                        }
+                    },
+                    "intensiva": {
+                        "text": "Intensiva",
+                        "selector": {
+                            "unifamiliar_cubierta_plana_lbm_int1": {
+                                "text": "Unifamiliar - Cobertura plana - LBM - Cobertura plana invertida ajardinada intensiva com membranas betuminosas (SBS) - INT1"
+                            },
+                            "unifamiliar_cubierta_plana_pvc_int2": {
+                                "text": "Unifamiliar - Cobertura plana - PVC - Cobertura plana invertida ajardinada intensiva com membrana PVC - INT2"
+                            },
+                            "plurifamiliar_cubierta_plana_lbm_int1": {
+                                "text": "Multifamiliar - Cobertura plana - LBM - Cobertura plana invertida ajardinada intensiva com membranas betuminosas (SBS) - INT1"
+                            },
+                            "plurifamiliar_cubierta_plana_pvc_int2": {
+                                "text": "Multifamiliar - Cobertura plana - PVC - Cobertura plana invertida ajardinada intensiva com membrana PVC - INT2"
+                            }
+                        }
+                    }
+                }
+            },
+            "acustica": {
+                "text": "AC\u00daSTICA",
+                "opciones": [
+                    {
+                        "selector": {
+                            "unifamiliar_cubierta_plana_lbm_acu3": {
+                                "text": "Unifamiliar - Cobertura plana - LBM - Cobertura t\u00e9cnica com laje de bet\u00e3o com isolamento XPS e membranas betuminosas (SBS) - ACU3"
+                            },
+                            "plurifamiliar_cubierta_plana_lbm_acu3": {
+                                "text": "Multifamiliar - Cobertura plana - LBM - Cobertura t\u00e9cnica com laje de bet\u00e3o com isolamento XPS e membranas betuminosas (SBS) - ACU3"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "tendederos": {
+        "text": "VARAIS",
+        "soluciones": [
+            {
+                "text": "Danopur Terra\u00e7os\/Danocret Protect Flex",
+                "opciones": [
+                    {
+                        "selector": {
+                            "danopur_terrazas_danocret_protect_flex_hum2": {
+                                "text": "Danopur Terra\u00e7os\/Danocret Protect Flex - \u00c1reas h\u00famidas interiores com membrana l\u00edquida - HUM2"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "fachada": {
+        "text": "FACHADA",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "aisl_interior_tabique_ceramico_fch3": {
+                                "text": "Isolamento interior - Divis\u00f3ria cer\u00e2mica - Isolamento t\u00e9rmico-ac\u00fastico pelo interior - FCH3"
+                            },
+                            "aisl_interior_tabique_yeso_laminado_fch4": {
+                                "text": "Isolamento interior - Divis\u00f3ria de gesso laminado - FCH4"
+                            },
+                            "aisl_exterior_sate_fch1": {
+                                "text": "Isolamento Exterior (SATE) - FCH1"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "divisorias_interiores": {
+        "text": "DIVIS\u00d3RIAS INTERIORES",
+        "soluciones": {
+            "suelos_flotantes": {
+                "text": "PAVIMENTOS FLUTUANTES",
+                "opciones": {
+                    "s_aislamiento": {
+                        "text": "s\/isolamento",
+                        "selector": {
+                            "privado_acabado_madera_suf1": {
+                                "text": "Privado - Acabamento madeira - Pavimento flutuante b\u00e1sico (acabamento laminado de madeira) - SUF1"
+                            },
+                            "privado_acabado_ceramico_suf2": {
+                                "text": "Privado - Acabamento cer\u00e2mico - Pavimento flutuante b\u00e1sico (acabamento cer\u00e2mico) - SUF2"
+                            },
+                            "publico_zonas_de_actividad_suf5": {
+                                "text": "P\u00fablico - \u00c1reas de actividade - Pavimento flutuante para zonas de cargas elevadas - Pavimento flutuante para zonas de cargas elevadas - SUF5"
+                            }
+                        }
+                    },
+                    "c_aislamiento": {
+                        "text": "c\/isolamento",
+                        "selector": {
+                            "privado_acabado_madera_suf3": {
+                                "text": "Privado - Acabamento madeira - Pavimento flutuante b\u00e1sico termoac\u00fastico - SUF3"
+                            },
+                            "privado_acabado_ceramico_suf3": {
+                                "text": "Privado - Acabamento cer\u00e2mico - Pavimento flutuante b\u00e1sico termoac\u00fastico - SUF3"
+                            },
+                            "publico_zonas_de_actividad_suf5": {
+                                "text": "P\u00fablico - \u00c1reas de actividade - Pavimento flutuante para zonas de cargas elevadas - Pavimento flutuante para zonas de cargas elevadas - SUF5"
+                            }
+                        }
+                    }
+                }
+            },
+            "divisorias_verticales": {
+                "text": "DIVIS\u00d3RIAS VERTICALES",
+                "opciones": [
+                    {
+                        "selector": {
+                            "tabique_ceramico_div1": {
+                                "text": "Divis\u00f3ria cer\u00e1mico - DIV1"
+                            },
+                            "tabique_yeso_laminado_div2": {
+                                "text": "Divis\u00f3ria de gesso laminado - Divis\u00f3ria dupla em gesso cartonado - DIV2"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trasdosados": {
+                "text": "TRASDOSADOS",
+                "opciones": [
+                    {
+                        "selector": {
+                            "instalaciones_zonas_comunes_tra1": {
+                                "text": "Instala\u00e7\u00f5es \/\u00c1reas comuns - Trasdosado para locais de emiss\u00e3o 85-90 dB - TRA1"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "zonas_comunes": {
+        "text": "ZONAS COMUNS",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "fuentes_pfe1": {
+                                "text": "Fontes - Piscinas, fontes e tanques - PFE1"
+                            },
+                            "zonas_pavimentadas_publicas_tpc1": {
+                                "text": "Zonas  pavimentadas - P\u00fablicas - Cobertura plana transit\u00e1vel para zonas comuns de uso privado com membranas betuminosas (SBS) - TPC1"
+                            },
+                            "zonas_pavimentadas_privadas_tpc2": {
+                                "text": "Zonas pavimentadas - Privadas - Cobertura plana transit\u00e1vel para zonas comuns de uso p\u00fablico com membranas betuminosas (SBS) - TPC2"
+                            },
+                            "zonas_ajardinadas_extensivas_ext1": {
+                                "text": "Zonas  ajardinadas - Extensivas - Cobertura plana invertida ajardinada extensiva com membranas betuminosas (SBS) - EXT1"
+                            },
+                            "zonas_ajardinadas_intensivas_int1": {
+                                "text": "Zonas  ajardinadas - Intensivas -Cobertura plana invertida ajardinada intensiva com membranas betuminosas (SBS) - INT1"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "parking": {
+        "text": "PARKING",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "rodadura_hormigon_tvh1": {
+                                "text": "Estradas  de concreto - Cobertura plana para ve\u00edculos de uso p\u00fablico com membranas betuminosas (SBS) para verter bet\u00e3o - TVH1"
+                            },
+                            "aglomerado_asfaltico_tva1": {
+                                "text": "Aglomerado asf\u00e1ltico - Cobertura plana para ve\u00edculos com membranas betuminosas (SBS) para verter aglomerado asf\u00e1ltico - TVA1"
+                            },
+                            "aglomerado_asfaltico_tva3": {
+                                "text": "Aglomerado asf\u00e1ltico - Cobertura plana para ve\u00edculos de uso p\u00fablico com membrana cont\u00ednua de poliureia para verter aglomerado asf\u00e1ltico - TVA3"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "estructuras_enterradas": {
+        "text": "ESTRUTURAS ENTERRADAS",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "losa_los1": {
+                                "text": "Laje - Laje de Pavimento t\u00e9rreo com membrana betuminosa (SBS) - LOS1"
+                            },
+                            "solera_sol1": {
+                                "text": "Soleira - Laje sobre terreno compactado para tr\u00e1fego autom\u00f3vel com membrana betuminosa (SBS) - SOL1"
+                            },
+                            "muro_flexoresistente_por_trasdos_mur1": {
+                                "text": "Muro Flexoresistente - Por trasd\u00f3s - Muros de suporte ou panos enterrados com membrana betuminosa (SBS) - MUR1"
+                            },
+                            "muro_flexoresistente_por_intrados_argotec_imp_300": {
+                                "text": "Muro Flexoresistente - Por intrad\u00f3s - ARGOTEC Imp. 300"
+                            },
+                            "muro_flexoresistente_por_intrados_argotec_danocret_protect_flex": {
+                                "text": "Muro Flexoresistente - Por intrad\u00f3s - Danocret Protect Flex"
+                            },
+                            "zapata_argotec_grout": {
+                                "text": "Sapata - Argotec GROUT"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "instalaciones": {
+        "text": "INSTALA\u00c7\u00d5ES",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "bajantes_baj1": {
+                                "text": "Tubagem - Tubagem de descarga em edi\u00edcios resid\u00eanciais - BAJ1"
+                            },
+                            "cuartos_humedos_hum2": {
+                                "text": "Salas \u00famidas - \u00c1reas h\u00famidas interiores com membrana l\u00edquida - HUM2"
+                            },
+                            "pci_dep1": {
+                                "text": "PCI - Dep\u00f3sitos de \u00e1gua pot\u00e1vel com PVC - DEP1"
+                            },
+                            "foso_ascensor_fos1": {
+                                "text": "Fosso Elevador - Fosso de elevador - FOS1"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "cuartos_de_instalaciones": {
+        "text": "CUARTOS DE INSTALACIONES",
+        "soluciones": [
+            {
+                "opciones": [
+                    {
+                        "selector": {
+                            "suelo_suf5": {
+                                "text": "Pavimento - Pavimento flutuante para zonas de cargas elevadas - Pavimento flutuante para zonas de cargas elevadas - SUF5"
+                            },
+                            "trasdosado_tra3": {
+                                "text": "Trasdosado - Trasdosado para locais de emiss\u00e3o >90 dB com m\u00fasica - TRA3"
+                            },
+                            "techo_tef3": {
+                                "text": "TETO - Teto flutuante para locais com emiss\u00e3o >90 dBA com m\u00fasica - TEF3"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

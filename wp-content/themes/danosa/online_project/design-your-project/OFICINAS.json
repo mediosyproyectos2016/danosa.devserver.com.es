@@ -1,0 +1,178 @@
+{
+  "divisorias_interiores": {
+    "text": "DIVISORIAS INTERIORES",
+    "soluciones": {
+      "suelos_flotantes": {
+        "text": "SUELOS FLOTANTES",
+        "opciones": {
+          "s_aislamiento": {
+            "text": "s\/aislamiento",
+            "selector": {
+              "privado_acabado_madera_suf1": {
+                "text": "Privado - Acabado madera - SUF1"
+              },
+              "privado_acabado_ceramico_suf2": {
+                "text": "Privado - Acabado cer\u00e1mico - SUF2"
+              },
+              "publico_zonas_de_actividad_suf5": {
+                "text": "P\u00fablico - Zonas de actividad - SUF5"
+              }
+            }
+          },
+          "c_aislamiento": {
+            "text": "c\/aislamiento",
+            "selector": {
+              "privado_acabado_madera_suf3": {
+                "text": "Privado - Acabado madera - SUF3"
+              },
+              "privado_acabado_ceramico_suf3": {
+                "text": "Privado - Acabado cer\u00e1mico - SUF3"
+              },
+              "publico_zonas_de_actividad_suf5": {
+                "text": "P\u00fablico - Zonas de actividad - SUF5"
+              }
+            }
+          }
+        }
+      },
+      "divisorias_verticales": {
+        "text": "DIVISORIAS VERTICALES",
+        "opciones": [
+          {
+            "selector": {
+              "tabique_yeso_laminado_div2": {
+                "text": "Tabique yeso laminado - DIV2"
+              },
+              "mampara - MAD": {
+                "text": "Mampara - MAD"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "pavimentos": {
+    "text": "PAVIMENTOS",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "text": "s\/aislamiento",
+            "selector": {
+              "pav1": {
+                "text": "PAV1"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "zonas_comunes": {
+    "text": "ZONAS COMUNES",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "fuentes_laminas_de_agua_pfe1": {
+                "text": "Fuentes\/L\u00e1minas de agua - PFE1"
+              },
+              "zonas_pavimentadas_publicas_tpc1": {
+                "text": "Zonas  pavimentadas - P\u00fablicas - TPC1"
+              },
+              "zonas_pavimentadas_privadas_tpc2": {
+                "text": "Zonas  pavimentadas - Privadas - TPC2"
+              },
+              "zonas_ajardinadas_extensivas_ext1": {
+                "text": "Zonas ajardinadas - Extensivas - EXT1"
+              },
+              "zonas_ajardinadas_intensivas_int1": {
+                "text": "Zonas ajardinadas - Intensivas -INT1"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "estructuras_enterradas": {
+    "text": "ESTRUCTURAS ENTERRADAS",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "losa_los1": {
+                "text": "Losa - LOS1"
+              },
+              "solera_sol1": {
+                "text": "Solera - SOL1"
+              },
+              "muro_flexoresistente_por_extrasdos_mur1": {
+                "text": "Muro Flexoresistente - Pro extrasd\u00f3s - MUR1"
+              },
+              "muro_flexoresistente_por_intrados_argotec_imp_300": {
+                "text": "Muro Flexoresistente - Pro intrad\u00f3s - Argotec 300 Imp."
+              },
+              "muro_flexoresistente_por_intrados_danocret_protect_flex": {
+                "text": "Muro Flexoresistente - Pro intrad\u00f3s - Danocret Protect Flex"
+              },
+              "zapata_argotec_grout": {
+                "text": "Zapata - Argotec GROUT"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "instalaciones": {
+    "text": "INSTALACIONES",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "bajantes_baj1": {
+                "text": "Bajantes - BAJ1"
+              },
+              "cuartos_humedos_hum2": {
+                "text": "Cuartos h\u00famedos - HUM2"
+              },
+              "pci_dep1": {
+                "text": "PCI - DEP1"
+              },
+              "foso_ascensor_fos1": {
+                "text": "Foso Ascensor - FOS1"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cuartos_de_instalaciones": {
+    "text": "CUARTOS DE INSTALACIONES",
+    "soluciones": [
+      {
+        "opciones": [
+          {
+            "selector": {
+              "suelo_suf5": {
+                "text": "Suelo - SUF5"
+              },
+              "trasdosado_tra3": {
+                "text": "Trasdosado - TRA3"
+              },
+              "techo_tef3": {
+                "text": "TECHO - TEF3"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
