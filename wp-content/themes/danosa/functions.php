@@ -10,8 +10,11 @@
     global $print_debug;
     $print_debug = 0;
 
-load_theme_textdomain( 'danosa', get_stylesheet_directory_uri() . '/languages/' );
-load_theme_textdomain( 'danosa-design-your-project', get_stylesheet_directory_uri() . '/languages/' );
+// Carga de traducciones en el hook correcto (requerido desde WP 6.7)
+add_action( 'after_setup_theme', function() {
+    load_theme_textdomain( 'danosa', get_stylesheet_directory_uri() . '/languages/' );
+    load_theme_textdomain( 'danosa-design-your-project', get_stylesheet_directory_uri() . '/languages/' );
+} );
 
 /**
  * Define Constants
@@ -28,7 +31,7 @@ include_once "shortcodes/search-button.php";
 include_once "shortcodes/banner.php";
 include_once "shortcodes/link-hreflang.php";
 
-include_once "functions/functions-menu.php";
+//include_once "functions/functions-menu.php";
 include_once "functions/functions-countries.php";
 include_once "functions/functions-hreflang.php";
 include_once "functions/functions-acoustic_app.php";
@@ -47,6 +50,7 @@ function get_page_by_slug($page_slug, $post_type = 'page', $output = OBJECT ) {
     return null;
 }
 
+
 /*
 function get_site_locale(){
         $path = get_blog_details(get_current_blog_id())->path;
@@ -56,6 +60,8 @@ function get_site_locale(){
         return $path;
 }
 */
+
+
 
 
 function myp_scripts() {
@@ -80,7 +86,7 @@ function myp_scripts() {
     wp_enqueue_script('instantsearch', 'https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js');
 
     //wp_enqueue_script( 'search', get_stylesheet_directory_uri().'/js/search.js', array ( 'jquery' ), 1.0, true);
-    wp_localize_script( 'search', 'searchParams', array("locale" => get_site_locale()) );
+    //wp_localize_script( 'search', 'searchParams', array("locale" => get_site_locale()) );
 
     //family
     wp_enqueue_script( 'family', get_stylesheet_directory_uri().'/js/family.js', array ( 'jquery' ), 1.0, true);
@@ -137,8 +143,11 @@ function cc_mime_types($mimes) {
 add_filter('upload_mimes', 'cc_mime_types');
 
 //adminbar color
-add_action('wp_head', 'change_bar_color');
-add_action('admin_head', 'change_bar_color');
+// Registramos los hooks dentro de acf/init para asegurar que ACF esté inicializado
+add_action('acf/init', function() {
+    add_action('wp_head', 'change_bar_color');
+    add_action('admin_head', 'change_bar_color');
+});
 function change_bar_color() {
     ?>
     <style>
@@ -331,21 +340,23 @@ function new_excerpt_more($more) {
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
-//ACF - Página de configuración
-if( function_exists('acf_add_options_page') ) {
+//ACF - Página de configuración (dentro de acf/init para evitar carga temprana de traducciones)
+add_action( 'acf/init', function() {
+    if( function_exists('acf_add_options_page') ) {
 
-    $parent = acf_add_options_page(array(
-            'page_title'    => __('Danosa Configuration'),
-            'menu_title'    => __('Danosa Configuration'),
-            'icon_url' => '/wp-content/themes/danosa/img/danosa-logo.svg',
-        ));
+        $parent = acf_add_options_page(array(
+                'page_title'    => __('Danosa Configuration'),
+                'menu_title'    => __('Danosa Configuration'),
+                'icon_url' => '/wp-content/themes/danosa/img/danosa-logo.svg',
+            ));
 
-    acf_add_options_sub_page(array(
-            'page_title'  => 'Global',
-            'menu_title'  => 'Global',
-            'parent_slug' => $parent['menu_slug'],
-        ));
-}
+        acf_add_options_sub_page(array(
+                'page_title'  => 'Global',
+                'menu_title'  => 'Global',
+                'parent_slug' => $parent['menu_slug'],
+            ));
+    }
+} );
 
 
 function print__menu_function($atts) {
@@ -2417,31 +2428,3 @@ function disable_comments_post_types_support() {
  }
  add_filter('comments_open', 'disable_comments_status', 20, 2);
  add_filter('pings_open', 'disable_comments_status', 20, 2);
- 
- // Código GTM en head
-function dcms_add_google_tag_manager_head() { ?>
-
-	<!-- Google Tag Manager -->
-<script>/*danosa250723*/(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-K4H5MQZ');</script>
-<!-- End Google Tag Manager -->
-
-
-<?php }
-add_action('wp_head', 'dcms_add_google_tag_manager_head');
-
-
-// Código GTM en body - noscript
-function dcms_add_google_tag_manager_body() { ?>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-K4H5MQZ
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-<?php }
-add_action( 'wp_body_open', 'dcms_add_google_tag_manager_body' );

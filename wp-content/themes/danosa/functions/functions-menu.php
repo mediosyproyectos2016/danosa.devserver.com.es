@@ -1,8 +1,9 @@
 <?php
 
-$merchants_bottom = get_field("Filters description");
-
 function add_menu_dinamic($items, $args) {
+
+    // Obtenemos el campo aquí dentro (no en el nivel raíz) para que ACF esté inicializado
+    $merchants_bottom = function_exists('get_field') ? get_field("Filters description") : '';
 
 
         $iconArrow = '
