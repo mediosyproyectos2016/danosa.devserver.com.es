@@ -7,14 +7,103 @@
  * @package Astra Child
  * @since 1.0.0
  */
-    global $print_debug;
-    $print_debug = 0;
+
+
+/**
+ * Astra Layout Filters for Family Taxonomy
+ * Forzar el diseño "Plain Container" para que coincida con Audal
+ */
+add_filter( 'astra_get_content_layout', function( $layout ) {
+    if ( is_tax( 'family' ) ) {
+        return 'ast-plain-container';
+    }
+    return $layout;
+} );
+
+add_filter( 'astra_page_layout', function( $layout ) {
+    if ( is_tax( 'family' ) ) {
+        return 'no-sidebar';
+    }
+    return $layout;
+} );
+
+// Forzar clases de body con prioridad alta
+add_filter( 'body_class', function( $classes ) {
+    if ( is_tax( 'family' ) || is_singular( 'product' ) ) {
+        $classes = array_diff( $classes, array( 'ast-separate-container', 'ast-two-container' ) );
+        $classes[] = 'ast-plain-container';
+        $classes[] = 'ast-no-sidebar';
+    }
+    return $classes;
+}, 999 );
+
+// Capa de compatibilidad para funciones de Multisite en entornos de sitio único
+if ( ! is_multisite() ) {
+    if ( ! function_exists( 'get_blog_details' ) ) {
+        function get_blog_details( $fields = null, $get_all = true ) {
+            $blog = new stdClass();
+            $blog->blog_id = 1;
+            $blog->siteurl = get_site_url();
+            $blog->path    = '/';
+            return $blog;
+        }
+    }
+    if ( ! function_exists( 'get_sites' ) ) {
+        function get_sites( $args = array() ) {
+            $blog = new stdClass();
+            $blog->blog_id = 1;
+            $blog->siteurl = get_site_url();
+            $blog->path    = '/';
+            return array( $blog );
+        }
+    }
+    if ( ! function_exists( 'switch_to_blog' ) ) {
+        function switch_to_blog( $new_blog_id, $validate = false ) {
+            return true;
+        }
+    }
+    if ( ! function_exists( 'restore_current_blog' ) ) {
+        function restore_current_blog() {
+            return true;
+        }
+    }
+    if ( ! function_exists( 'get_blog_option' ) ) {
+        function get_blog_option( $id, $option, $default = false ) {
+            return get_option( $option, $default );
+        }
+    }
+}
 
 // Carga de traducciones en el hook correcto (requerido desde WP 6.7)
 add_action( 'after_setup_theme', function() {
     load_theme_textdomain( 'danosa', get_stylesheet_directory_uri() . '/languages/' );
     load_theme_textdomain( 'danosa-design-your-project', get_stylesheet_directory_uri() . '/languages/' );
 } );
+
+/**
+ * Filtra los productos en las páginas de familia para mostrar solo los que tienen variantes (hijos).
+ */
+add_action( 'pre_get_posts', 'filtrar_productos_familia_con_variantes' );
+function filtrar_productos_familia_con_variantes( $query ) {
+    if ( ! is_admin() && $query->is_main_query() && is_tax( 'family' ) ) {
+        // Aseguramos que solo mostramos productos padre (post_parent = 0)
+        $query->set( 'post_parent', 0 );
+        
+        // Añadimos el filtro SQL para verificar que tienen hijos (variantes)
+        add_filter( 'posts_where', 'filtro_sql_tiene_hijos', 10, 2 );
+    }
+}
+
+function filtro_sql_tiene_hijos( $where, $query ) {
+    global $wpdb;
+    // Quitamos el filtro para no afectar a otras consultas que puedan ocurrir en la misma carga
+    remove_filter( 'posts_where', 'filtro_sql_tiene_hijos', 10 );
+    
+    // Solo permitimos productos que tengan al menos un post hijo de tipo product
+    $where .= " AND {$wpdb->posts}.ID IN (SELECT DISTINCT post_parent FROM {$wpdb->posts} WHERE post_type = 'product' AND post_parent > 0)";
+    
+    return $where;
+}
 
 /**
  * Define Constants

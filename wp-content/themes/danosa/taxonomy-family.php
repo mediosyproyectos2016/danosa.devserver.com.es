@@ -45,58 +45,129 @@ if(!empty($image)){
 
 			<main id="main" class="site-main">
 				<div class="entry-content clear" itemprop="text">
-				<div id="family-main-header" class="wp-block-group alignfull has-background" style="background: <?php echo $color; ?>">
-					<?php if(!empty($icon)){ ?>
-					<div id="family-main-header-bg" style="">
-					</div>
-					<style type="text/css">
-
-						@media (min-width: 782px) {
-							#family-main-header-bg{
-								background-image: linear-gradient(90deg, <?php echo $color; ?> 65%, rgba(255,255,255,0) 80%), url(<?php echo $image; ?>);
-							}
-						}
-						@media (max-width: 781px) {
-							#family-main-header-bg{
-								background-image: url(<?php echo $image; ?>);
-								opacity: 0.5;
-    							background-size: cover;
-							}
-						}
-					</style>
-					<?php } ?>
+				<div id="family-main-header" class="wp-block-group alignfull has-background breakout" style="background: #090909; padding: 60px 0;">
 				    <div class="wp-block-group__inner-container">
-				        <div class="wp-block-columns">
-				            <div id="family-main-header-icon" class="wp-block-column" style="flex-basis:20%">
-				                <figure class="wp-block-image size-full">
+				        <!-- Enlace de retorno -->
+				        <p class="has-ast-global-color-4-color" style="margin-bottom: 25px;">
+				            <a href="<?php echo site_url('/soluciones-acusticas/'); ?>" style="text-decoration: none; color: inherit;">&lt;- Volver a soluciones acústicas</a>
+				        </p>
 
-									<img src="<?php echo $icon; ?>" />
+				        <!-- Etiqueta superior -->
+				        <p class="has-luminous-vivid-orange-color" style="font-size: 14px; margin-bottom: 15px; letter-spacing: 1px;"><strong>GAMA PREMIUM</strong></p>
 
-				                </figure>
-				            </div>
-				            <div id="family-main-header-info" class="wp-block-column" style="flex-basis:80%">
-				            	<?php if(get_queried_object()->parent == 0){ ?>
-				                <h1><?php echo strip_tags(term_description($parentID)); ?></h1>
-				            	<?php }else{ ?>
-				            	<h2><?php echo strip_tags(term_description($parentID)); ?></h2>
-				            	<?php } ?>
-				                <p><?php echo $short_description; ?></p>
+				        <!-- Logo de Marca -->
+				        <figure class="wp-block-image size-full" style="margin-bottom: 30px;">
+				            <img fetchpriority="high" decoding="async" width="415" height="136" src="https://danosa.devserver.com.es/wp-content/uploads/2026/03/audal.jpg" alt="" class="wp-image-286" style="max-width: 350px; height: auto;">
+				        </figure>
 
-				            </div>
+				        <!-- Descripción Audal -->
+				        <div class="wp-block-group is-content-justification-left is-layout-constrained">
+				            <p class="has-ast-global-color-4-color" style="font-size: 18px; line-height: 1.6; max-width: 850px;">Audal™ te ofrece una gama avanzada de productos y sistemas que crean espacios perfectamente insonorizados, donde el ruido no deseado no puede entrar y el sonido no puede escapar.</p>
 				        </div>
 				    </div>
 				</div>
 
-				<div id="family-container" class="wp-block-columns">
-					<div id="family-left" class="wp-block-column" style="flex-basis:33.33%">
+				<style type="text/css">
+					/* Estructura Full-Width */
+					.ast-plain-container .site-content .ast-container {
+						max-width: 100% !important;
+						padding: 0 !important;
+					}
+					#primary {
+						width: 100% !important;
+						padding: 0 !important;
+						margin: 0 !important;
+					}
+					.breakout {
+						width: 100vw !important;
+						position: relative;
+						left: 50%;
+						right: 50%;
+						margin-left: -50vw !important;
+						margin-right: -50vw !important;
+					}
+					#family-main-header .wp-block-group__inner-container {
+						max-width: 1240px;
+						margin: 0 auto;
+						padding: 0 20px;
+					}
+
+					/* Layout de Columnas 30/70 Forzado */
+					#family-container {
+						display: flex !important;
+						flex-direction: row !important;
+						flex-wrap: nowrap !important;
+						max-width: 1240px;
+						margin: 60px auto !important;
+						padding: 0 20px !important;
+					}
+					#family-left {
+						flex: 0 0 30% !important;
+						width: 30% !important;
+						max-width: 30% !important;
+						padding-right: 50px !important;
+						box-sizing: border-box !important;
+					}
+					#family-right {
+						flex: 0 0 70% !important;
+						width: 70% !important;
+						max-width: 70% !important;
+						box-sizing: border-box !important;
+					}
+
+					@media (max-width: 921px) {
+						#family-container {
+							flex-wrap: wrap !important;
+						}
+						#family-left, #family-right {
+							flex: 0 0 100% !important;
+							width: 100% !important;
+							max-width: 100% !important;
+							padding-right: 0 !important;
+						}
+						#family-left {
+							margin-bottom: 40px !important;
+						}
+					}
+
+					/* Estilos Barra Lateral */
+					#menu-families p strong {
+						letter-spacing: 1px;
+						font-weight: 700;
+						color: #333;
+					}
+					#menu-families ul {
+						list-style: none;
+						margin-left: 0;
+						padding-left: 0;
+						border-top: 1px solid #eee;
+					}
+					#menu-families ul li {
+						padding: 12px 0;
+						border-bottom: 1px solid #eee;
+					}
+					#menu-families ul li a {
+						color: #666;
+						font-size: 15px;
+						text-decoration: none;
+						transition: all 0.3s ease;
+						display: block;
+					}
+					#menu-families ul li a:hover, #menu-families ul li a.active {
+						color: #2581C4;
+						font-weight: 600;
+						padding-left: 5px;
+					}
+				</style>
+				<div id="family-container">
+					<div id="family-left">
 						<div id="menu-families">
+							<p style="margin: 0; padding: 0 0 15px 0; font-size: 16px;"><strong>CATEGORÍAS</strong></p>
 							<?php echo get_family_tree('family',$parentID); ?>
 						</div>
 					</div>
 
-
-
-					<div id="family-right" class="wp-block-column" style="flex-basis:66.66%">
+					<div id="family-right">
 
 		            	<?php if(get_queried_object()->parent != 0){ ?>
 		            	<div id="family-header">

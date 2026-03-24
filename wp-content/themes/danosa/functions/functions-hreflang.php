@@ -212,7 +212,7 @@ function multisite_hreflang_wp_head(  ){
 					if($first ) echo str_replace('hreflang="'.$key.'"','hreflang="x-default"',$value);
 					$first = false;
 				}
-			} else{
+			} else if ( function_exists( 'get_blog_details' ) ) {
 				$blog = get_blog_details();
 				echo '<link rel="alternate" hreflang="'.str_replace("/","",$blog->path).'" href="'.$url.'" />';
 			}
