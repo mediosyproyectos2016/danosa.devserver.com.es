@@ -49,7 +49,7 @@ if(!empty($image)){
 				    <div class="wp-block-group__inner-container">
 				        <!-- Enlace de retorno -->
 				        <p class="has-ast-global-color-4-color" style="margin-bottom: 25px;">
-				            <a href="<?php echo site_url('/soluciones-acusticas/'); ?>" style="text-decoration: none; color: inherit;">&lt;- Volver a soluciones acústicas</a>
+				            <a href="https://danosa.com/audal/" style="text-decoration: none; color: inherit;">&lt;- Volver a soluciones acústicas</a>
 				        </p>
 
 				        <!-- Etiqueta superior -->

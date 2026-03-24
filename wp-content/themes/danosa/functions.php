@@ -1839,13 +1839,17 @@ function load_product_fields($campos, $postID){
                 }
             }else{
 
-                if(!empty($term_list)){
+                // Filtrar solo términos con descripción no vacía
+                $term_list_filtered = array_filter($term_list, function($element) {
+                    return !empty(trim($element->description));
+                });
+
+                if(!empty($term_list_filtered)){
                     echo '<div class="product-data product-data-term">';
                     echo '<h3>'.$value["name"].'</h3>';
                     echo '<div class="product-data">';
-                    //print_r( $term_list );
                     echo "<ul>";
-                    foreach ($term_list as $key2 => $element) { ?>
+                    foreach ($term_list_filtered as $key2 => $element) { ?>
                         <li><?php echo $element->description; ?></li>
                     <?php }
                     echo "</ul>";
